@@ -1,0 +1,2 @@
+# Launch the server from Terminal with: ./run
+python3 -m http.server 8211
