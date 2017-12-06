@@ -4,3 +4,4 @@
 - Aspect responsive (Bootstrap).
 - Aspect mobile: gérer correctement les "touches"
 - Gérer le scrolling auquel les gens sont habitués.
+- test fabrice
