@@ -42,8 +42,8 @@ d3.json("data.json", function(error, data) {
   // Global variables (geometry)
   var
     unit_width,
-    window_width,
-    window_height,
+    chart_width,
+    chart_height,
     cell_width,
     cell_height,
     handle_height,
@@ -149,13 +149,13 @@ d3.json("data.json", function(error, data) {
 
   function update_scales() {
     ticks = tick_array[cell.depth];
-    handle_height = cell.x0 ? window_height / (screen.width <= 640 ? 15 : 20) : 0;
-    x_scale.domain(Array.from([0,1,2,3,4,5,6]).map(i => i/6)).range(ticks.map(x => x * window_width));
-    y_scale.domain([cell.x0, cell.x1]).range([handle_height, window_height - handle_height]);
+    handle_height = cell.x0 ? chart_height / (screen.width <= 640 ? 15 : 20) : 0;
+    x_scale.domain(Array.from([0,1,2,3,4,5,6]).map(i => i/6)).range(ticks.map(x => x * chart_width));
+    y_scale.domain([cell.x0, cell.x1]).range([handle_height, chart_height - handle_height]);
     cell_width = d => x_scale(d.y1) - x_scale(d.y0);
     cell_height = d => y_scale(d.x1) - y_scale(d.x0);
     d3.select("#chart")
-      .style("height", `${window_height}px`)
+      .style("height", `${chart_height}px`)
     ;
   }
 
@@ -171,24 +171,24 @@ d3.json("data.json", function(error, data) {
   }
 
   function update_dimensions() {
-    window_height = Math.max(640, window.innerHeight);
-    window_width = Math.max(640, Math.min(window_height, window.innerWidth));
-    unit_width = window_width / 10;
+    chart_height = Math.max(640, window.innerHeight);
+    chart_width = Math.max(640, Math.min(chart_height, window.innerWidth));
+    unit_width = chart_width / 10;
     tick_array = screen.width <= 640 ? TICK_ARRAY_FOR_NARROW_WIDTH : TICK_ARRAY_FOR_WIDE_WIDTH;
     update_scales();
 
     groups.call(update_group_geometry);
 
-    d3.select("#chart").style("width", `${window_width}px`);
-    d3.select("#menu").style("height", `${window_height}px`);
+    d3.select("#chart").style("width", `${chart_width}px`);
+    d3.select("#menu").style("height", `${chart_height}px`);
 
     // Update dimensions of header and footer
     d3.select("#background")
-      .style("width", `${window_width}px`)
+      .style("width", `${chart_width}px`)
     ;
 
     // Update dimensions of multiline Program texts
-    font_size = Math.min(unit_width / 3, window_height / 60);
+    font_size = Math.min(unit_width / 3, chart_height / 60);
     groups.filter(".program")
       .select("foreignObject")
         .attr("width", cell_width)
@@ -200,13 +200,13 @@ d3.json("data.json", function(error, data) {
     groups.filter(".year,.semester,.UE")
       .select("text")
         .attr("x", unit_width / 2)
-        .attr("y", window_height / 100)
+        .attr("y", chart_height / 100)
         .style("font-size", `${font_size}px`)
     ;
     // Update dimensions of vertical middle texts
-    font_size = Math.min(unit_width / 2, window_height / 40);
+    font_size = Math.min(unit_width / 2, chart_height / 40);
     d3.selectAll(".fixed text")
-      .attr("x", - window_height / 2)
+      .attr("x", - chart_height / 2)
       .attr("y", i => (ticks[i+1] + ticks[i]) * 5 * unit_width)
       .style("font-size", `${font_size}px`)
     ;
