@@ -111,7 +111,7 @@ img {
 /* Header and footer */
 
 #main {
-  overflow: auto;
+  overflow: hidden;
   background:#d9d9d9;
   margin: 0px;
 }
@@ -128,14 +128,6 @@ img {
   opacity:0;
 }
 
-#header {
-  font-weight: bold;
-  pointer-events: all;
-  padding:10px;
-  position:fixed;
-  cursor:pointer;
-}
-
 #chart {
   position: relative;
   left: 0px;
@@ -144,13 +136,6 @@ img {
   bottom: 0px;
   margin: 0 auto;
   opacity:0;
-}
-
-#footer {
-  font-size: 45%;
-  position: fixed;
-  padding-left:10px;
-  bottom: 1.2em;
 }
 
 #loader {
