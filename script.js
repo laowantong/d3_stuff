@@ -46,6 +46,7 @@ d3.json("data.json", function(error, data) {
     window_height,
     cell_width,
     cell_height,
+    handle_height,
     x_scale = d3.scaleLinear(),
     y_scale = d3.scaleLinear(),
     tick_array,
@@ -148,8 +149,9 @@ d3.json("data.json", function(error, data) {
 
   function update_scales() {
     ticks = tick_array[cell.depth];
+    handle_height = cell.x0 ? window_height / (screen.width <= 640 ? 15 : 20) : 0;
     x_scale.domain(Array.from([0,1,2,3,4,5,6]).map(i => i/6)).range(ticks.map(x => x * window_width));
-    y_scale.domain([cell.x0, cell.x1]).range([0, window_height]);
+    y_scale.domain([cell.x0, cell.x1]).range([handle_height, window_height - handle_height]);
     cell_width = d => x_scale(d.y1) - x_scale(d.y0);
     cell_height = d => y_scale(d.x1) - y_scale(d.x0);
     d3.select("#chart")
