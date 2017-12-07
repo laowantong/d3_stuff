@@ -122,7 +122,7 @@ img {
   color: #444;
   top: 0px;
   bottom: 0px;
-  left:0px;
+  left: 0px;
   right: 0px;
   margin: auto;
   opacity:0;
@@ -130,10 +130,6 @@ img {
 
 #chart {
   position: relative;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
   margin: 0 auto;
   opacity:0;
 }
