@@ -143,7 +143,7 @@ d3.json("data.json", function(error, data) {
   window.addEventListener("resize", update_dimensions);
   d3.select("#loader").remove();
   d3.select("#logo").remove();
-  d3.selectAll("#background, #chart")
+  d3.select("#chart")
     .transition().duration(1000)
     .style("opacity", 1);
 
@@ -182,10 +182,6 @@ d3.json("data.json", function(error, data) {
     d3.select("#chart").style("width", `${chart_width}px`);
     d3.select("#menu").style("height", `${chart_height}px`);
 
-    // Update dimensions of header and footer
-    d3.select("#background")
-      .style("width", `${chart_width}px`)
-    ;
 
     // Update dimensions of multiline Program texts
     font_size = Math.min(unit_width / 3, chart_height / 60);

@@ -116,18 +116,6 @@ img {
   margin: 0px;
 }
 
-#background {
-  position: absolute;
-  font-family: sans-serif;
-  color: #444;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin: auto;
-  opacity:0;
-}
-
 #chart {
   position: relative;
   margin: 0 auto;
