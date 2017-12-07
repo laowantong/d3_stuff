@@ -143,7 +143,10 @@ d3.json("data.json", function(error, data) {
   window.addEventListener("resize", update_dimensions);
   d3.select("#loader").remove();
   d3.select("#logo").remove();
-  d3.select("#chart")
+  d3.selectAll("#chart")
+    .transition().duration(1000)
+    .style("opacity", 1);
+  d3.selectAll("#toggleIcon") /* TODO: refactor that with the previous selector */
     .transition().duration(1000)
     .style("opacity", 1);
 
