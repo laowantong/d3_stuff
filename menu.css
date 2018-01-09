@@ -17,19 +17,12 @@ header {
     margin: auto;
     border-bottom: 1px solid #EEE;
 }
-#brand {
-    float: left;
-    line-height: 50px;
-    color: #E5DAC0;
-    font-size: 25px;
-    font-weight: bolder;
-    margin: 0 0 0 6px;
-}
 
 nav p{
-    text-decoration: none; 
-    color: #00A5CC; 
-    text-align: center;
+    text-decoration: none;
+    color: #00A5CC;
+    text-align: left;
+    margin: 1em;
 }
 
 nav { 
@@ -90,7 +83,7 @@ nav li.li_menu:last-child a {
   display: none; 
 }
 
-#menuToggle:checked ~ #menu { left: 0px}
+#menuToggle:checked ~ #menu { left: 0px }
 #menuToggle:checked ~ #toggleIcon { background-color: blue; }
 
 
