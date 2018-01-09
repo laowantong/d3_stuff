@@ -21,11 +21,12 @@ d3.json("data.json", function(error, data) {
     ],
     MAX_DEPTH = TICK_ARRAY_FOR_WIDE_WIDTH[0].length - 1,
     CUMUL_POLICIES = {
-      "modules": d => d.children ? 0 : 1,
-      "volumes": d => d.hours,
-      "ECTS": d => d.ECTS,
+      "modules": d => d.children ? 0 : (module_filter & d.languages ? 1 : 0),
+      "volumes": d => module_filter & d.languages ? d.hours : 0,
+      "ECTS": d => module_filter & d.languages ? d.ECTS : 0,
     },
     DEFAULT_CUMUL_POLICY = "modules",
+    DEFAULT_MODULE_FILTER = Math.pow(2, ["de", "fr", "en"].length) - 1,
     LOGOS = [
       "<span class=big>Management</span><br>franco-allemand et international",
       "Management de la<br><span class=big>logistique</span><br>internationale",
@@ -55,7 +56,8 @@ d3.json("data.json", function(error, data) {
   // Global variables (topology)
   var
     cumul_policy = DEFAULT_CUMUL_POLICY,
-    root = d3.partition()(d3.hierarchy(data["tree"]).sum(CUMUL_POLICIES[cumul_policy])),
+    module_filter = DEFAULT_MODULE_FILTER,
+    root = d3.partition()(d3.hierarchy(data["tree"])).sum(CUMUL_POLICIES[cumul_policy]),
     cell = root,
     previous_cell,
     previous_ancestors = [root],
@@ -69,6 +71,7 @@ d3.json("data.json", function(error, data) {
           group.append("rect")
         })
   ;
+  d3.partition()(root);
   // Set color and multiline text of Program cells
   groups.filter(".program")
     .call(function(group) {
@@ -130,12 +133,17 @@ d3.json("data.json", function(error, data) {
     .property("checked", true)
   ;
   // Make the radio buttons change the cumul policy
-  d3.selectAll("input")
+  d3.selectAll('input[name="accumulator"]')
     .on("change", function () {
       cumul_policy = this.value;
-      d3.partition()(root.sum(CUMUL_POLICIES[cumul_policy]));
-      previous_cell = null;
-      update_focus(cell)
+      update_cumul()
+    })
+  ;
+  // Update the module filter
+  d3.selectAll('input[name="filter"]')
+    .on("change", function () {
+      module_filter ^= this.value;
+      update_cumul()
     })
   ;
 
@@ -149,7 +157,13 @@ d3.json("data.json", function(error, data) {
   d3.selectAll("#toggleIcon") /* TODO: refactor that with the previous selector */
     .transition().duration(1000)
     .style("opacity", 1);
-
+  
+  function update_cumul() {
+    d3.partition()(root.sum(CUMUL_POLICIES[cumul_policy]));
+    previous_cell = null;
+    update_focus(cell)
+  }
+  
   function update_scales() {
     ticks = tick_array[cell.depth];
     handle_height = cell.x0 ? chart_height / (screen.width <= 640 ? 15 : 20) : 0;
