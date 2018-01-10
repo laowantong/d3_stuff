@@ -21,9 +21,9 @@ d3.json("data.json", function(error, data) {
     ],
     MAX_DEPTH = TICK_ARRAY_FOR_WIDE_WIDTH[0].length - 1,
     CUMUL_POLICIES = {
-      "modules": d => d.children ? 0 : (module_filter & d.mask ? 1 : 0),
-      "volumes": d => module_filter & d.mask ? d.hours : 0,
-      "ECTS": d => module_filter & d.mask ? d.ECTS : 0,
+      "modules": d => d.children ? 0 : (((language_filter & d.language_mask) != 0) & ((sharing_filter & d.sharing_mask) != 0) ? 1 : 0),
+      "volumes": d => ((language_filter & d.language_mask) != 0) & ((sharing_filter & d.sharing_mask) != 0) ? d.hours : 0,
+      "ECTS": d => ((language_filter & d.language_mask) != 0) & ((sharing_filter & d.sharing_mask) != 0) ? d.ECTS : 0,
     },
     LOGOS = [
       "<span class=big>Management</span><br>franco-allemand et international",
@@ -54,7 +54,8 @@ d3.json("data.json", function(error, data) {
   // Global variables (topology)
   var
     cumul_policy = "modules",
-    module_filter = Math.pow(2, document.querySelectorAll('input[name="filter"]').length) - 1,
+    language_filter = Math.pow(2, document.querySelectorAll('input[name="language_filter"]').length) - 1,
+    sharing_filter = Math.pow(2, document.querySelectorAll('input[name="sharing_filter"]').length) - 1,
     root = d3.partition()(d3.hierarchy(data["tree"])).sum(CUMUL_POLICIES[cumul_policy]),
     cell = root,
     previous_cell,
@@ -137,10 +138,17 @@ d3.json("data.json", function(error, data) {
       update_cumul()
     })
   ;
-  // Update the module filter
-  d3.selectAll('input[name="filter"]')
+  // Update the language filter
+  d3.selectAll('input[name="language_filter"]')
     .on("change", function () {
-      module_filter ^= this.value;
+      language_filter ^= this.value;
+      update_cumul()
+    })
+  ;
+  // Update the sharing filter
+  d3.selectAll('input[name="sharing_filter"]')
+    .on("change", function () {
+      sharing_filter ^= this.value;
       update_cumul()
     })
   ;
