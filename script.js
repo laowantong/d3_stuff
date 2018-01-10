@@ -141,15 +141,24 @@ d3.json("data.json", function(error, data) {
   // Update the language filter
   d3.selectAll('input[name="language_filter"]')
     .on("change", function () {
-      language_filter ^= this.value;
-      update_cumul()
+      if (document.querySelectorAll('input[name="language_filter"]:checked').length) {
+        language_filter ^= this.value;
+        update_cumul()
+      } else {
+        this.checked = true
+      }
     })
   ;
   // Update the sharing filter
+  // TODO: factorize this with the previous
   d3.selectAll('input[name="sharing_filter"]')
     .on("change", function () {
-      sharing_filter ^= this.value;
-      update_cumul()
+      if (document.querySelectorAll('input[name="sharing_filter"]:checked').length) {
+        sharing_filter ^= this.value;
+        update_cumul()
+      } else {
+        this.checked = true
+      }
     })
   ;
 
