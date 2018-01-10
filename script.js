@@ -21,12 +21,10 @@ d3.json("data.json", function(error, data) {
     ],
     MAX_DEPTH = TICK_ARRAY_FOR_WIDE_WIDTH[0].length - 1,
     CUMUL_POLICIES = {
-      "modules": d => d.children ? 0 : (module_filter & d.languages ? 1 : 0),
-      "volumes": d => module_filter & d.languages ? d.hours : 0,
-      "ECTS": d => module_filter & d.languages ? d.ECTS : 0,
+      "modules": d => d.children ? 0 : (module_filter & d.mask ? 1 : 0),
+      "volumes": d => module_filter & d.mask ? d.hours : 0,
+      "ECTS": d => module_filter & d.mask ? d.ECTS : 0,
     },
-    DEFAULT_CUMUL_POLICY = "modules",
-    DEFAULT_MODULE_FILTER = Math.pow(2, ["de", "fr", "en"].length) - 1,
     LOGOS = [
       "<span class=big>Management</span><br>franco-allemand et international",
       "Management de la<br><span class=big>logistique</span><br>internationale",
@@ -55,8 +53,8 @@ d3.json("data.json", function(error, data) {
   ;
   // Global variables (topology)
   var
-    cumul_policy = DEFAULT_CUMUL_POLICY,
-    module_filter = DEFAULT_MODULE_FILTER,
+    cumul_policy = "modules",
+    module_filter = Math.pow(2, document.querySelectorAll('input[name="filter"]').length) - 1,
     root = d3.partition()(d3.hierarchy(data["tree"])).sum(CUMUL_POLICIES[cumul_policy]),
     cell = root,
     previous_cell,
