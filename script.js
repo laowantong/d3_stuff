@@ -4,13 +4,14 @@ d3.json("data.json", function(error, data) {
   const
     BASE_URL = "https://github.com/isfates/maquettes/",
     TICK_ARRAY_FOR_WIDE_WIDTH = [
-      [0, 0, 0.35, 0.45, 0.55, 0.65, 1.0],
-      [0, 0, 0.1, 0.2, 0.3, 0.4, 1.0],
-      [0, 0, 0.1, 0.2, 0.3, 0.4, 1.0],
-      [0, 0, 0.1, 0.2, 0.3, 0.4, 1.0],
-      [0, 0, 0.1, 0.2, 0.3, 0.4, 1.0],
-      [0, 0, 0.1, 0.2, 0.3, 0.4, 1.0],
+      [-0.2, 0.1, 0.4, 0.5, 0.6, 0.7, 1.0],
+      [-0.2, 0.1, 0.2, 0.3, 0.4, 0.5, 1.0],
+      [-0.2, 0.1, 0.2, 0.3, 0.4, 0.5, 1.0],
+      [-0.2, 0.1, 0.2, 0.3, 0.4, 0.5, 1.0],
+      [-0.2, 0.1, 0.2, 0.3, 0.4, 0.5, 1.0],
+      [-0.2, 0.1, 0.2, 0.3, 0.4, 0.5, 1.0],
     ],
+    TICK_ARRAY_FOR_WIDE_WIDTH_WITH_OPEN_PANEL = [0, 0.3, 0.6, 0.7, 0.8, 0.9, 1.0],
     TICK_ARRAY_FOR_NARROW_WIDTH = [
       [0, 0, 0.35, 0.45, 0.55, 0.65, 1.0],
       [-0.1, 0, 0.1, 0.2, 0.3, 0.4, 1.0],
@@ -25,7 +26,7 @@ d3.json("data.json", function(error, data) {
       "volumes": d => ((language_filter & d.language_mask) != 0) & ((sharing_filter & d.sharing_mask) != 0) ? d.hours : 0,
       "ECTS": d => ((language_filter & d.language_mask) != 0) & ((sharing_filter & d.sharing_mask) != 0) ? d.ECTS : 0,
     },
-    LOGOS = [
+    RICH_PROGRAM_NAMES = [
       "<span class=big>Management</span><br>franco-allemand et international",
       "Management de la<br><span class=big>logistique</span><br>internationale",
       "Management du<br><span class=big>tourisme</span><br>international",
@@ -59,28 +60,35 @@ d3.json("data.json", function(error, data) {
     root = d3.partition()(d3.hierarchy(data["tree"])).sum(CUMUL_POLICIES[cumul_policy]),
     cell = root,
     previous_cell,
+    panel_offset = -0.2,
     previous_ancestors = [root],
     groups = d3.select("svg")
       .selectAll("g")
       .data(root.descendants()).enter()
       .append("g")
         .attr("class", d => d.data.nature)
-        .on("click", update_focus)
+        .on("click", cell => cell.depth ? update_focus(cell) : switch_panel())
         .call(function(group) {
           group.append("rect")
         })
   ;
+  // WTF?
   d3.partition()(root);
+  //
+  d3.select(".root")
+    .append("foreignObject")
+        .attr("style", "overflow:hidden")
+        .append("xhtml:body")
+          .append(() => d3.select("#menu").remove().node())
+  ;
   // Set color and multiline text of Program cells
   groups.filter(".program")
     .call(function(group) {
-      group.select("rect")
-        .style("fill", d => PROGRAM_COLOR_SCALE(d.data.index))
-      ;
+      group.select("rect").style("fill", d => PROGRAM_COLOR_SCALE(d.data.index));
       group.append("foreignObject")
         .attr("style", "overflow:hidden")
         .append("xhtml:body")
-          .html((d, i) => LOGOS[i])
+          .html((d, i) => RICH_PROGRAM_NAMES[i])
     })
   ;
   // Set color and horizontal text of middle cells
@@ -105,7 +113,16 @@ d3.json("data.json", function(error, data) {
           .html(d => `<div class="description"><h1><a href="${BASE_URL + d.data.anchor}" class="external_link" target="_blank">❐ </a>${d.data.name} </h1><h2>${d.data.ECTS} ECTS pour ${d.data.volumes}</h2><div class=details value=false></div></div>`)
     })
   ;
-  // Create long vertical text (initially empty) of all narrow colums
+  // Create root text on first column
+  d3.select("svg")
+    .append("g")
+      .attr("class", "fixed")
+      .selectAll("g")
+        .data([0]).enter()
+        .append("text")
+          .text(root.data.long_name)
+  ;
+  // Create long vertical text (initially hidden) of all narrow colums
   d3.select("svg")
     .append("g")
       .attr("class", "fixed")
@@ -121,11 +138,6 @@ d3.json("data.json", function(error, data) {
             text.append("tspan")
               .classed("label", true);
           })
-  ;
-  // Retrieve the title from the root node and display it in the header 
-  d3.select("#header")
-    .text(root.data.long_name)
-    .on("click", () => update_focus(root))
   ;
   // Check the default cumul policy radio button
   d3.select(`input[value="${cumul_policy}"]`)
@@ -165,10 +177,8 @@ d3.json("data.json", function(error, data) {
   update_dimensions();
   window.addEventListener("resize", update_dimensions);
   d3.select("#loader").remove();
-  d3.select("#logo").remove();
-  d3.selectAll("#chart,#toggleIcon")
-    .transition().duration(1000)
-    .style("opacity", 1);
+  d3.select("#main").style("background", "black");
+  d3.select("#chart").style("opacity", 1);
   
   function update_cumul() {
     d3.partition()(root.sum(CUMUL_POLICIES[cumul_policy]));
@@ -183,9 +193,7 @@ d3.json("data.json", function(error, data) {
     y_scale.domain([cell.x0, cell.x1]).range([handle_height, chart_height - handle_height]);
     cell_width = d => x_scale(d.y1) - x_scale(d.y0);
     cell_height = d => y_scale(d.x1) - y_scale(d.x0);
-    d3.select("#chart")
-      .style("height", `${chart_height}px`)
-    ;
+    d3.select("#chart").style("height", `${chart_height}px`);
   }
 
   function update_group_geometry(group) {
@@ -211,7 +219,6 @@ d3.json("data.json", function(error, data) {
     d3.select("#chart").style("width", `${chart_width}px`);
     d3.select("#menu").style("height", `${chart_height}px`);
 
-
     // Update dimensions of multiline Program texts
     font_size = Math.min(unit_width / 3, chart_height / 60);
     groups.filter(".program")
@@ -232,7 +239,7 @@ d3.json("data.json", function(error, data) {
     font_size = Math.min(unit_width / 2, chart_height / 40);
     d3.selectAll(".fixed text")
       .attr("x", - chart_height / 2)
-      .attr("y", i => (ticks[i+1] + ticks[i]) * 5 * unit_width)
+      .attr("y", i => (ticks[i+1] + Math.max(0, ticks[i])) * 5 * unit_width)
       .style("font-size", `${font_size}px`)
     ;
   }
@@ -248,7 +255,7 @@ d3.json("data.json", function(error, data) {
     d3.selectAll(".fixed text")
       .transition().duration(0)
       .delay(d3.event.altKey ? 5000 : 500)
-      .attr("y", i => (ticks[i+1] + ticks[i]) * 5 * unit_width)
+      .attr("y", i => (ticks[i+1] + Math.max(0, ticks[i])) * 5 * unit_width)
     ;
     // When all module heights are equals and the focus is on a Program, print them as a list
     d3.selectAll(".description")
@@ -306,5 +313,13 @@ d3.json("data.json", function(error, data) {
     previous_ancestors = cell.ancestors();
     previous_cell = cell;
   };
+  
+  function switch_panel() {
+    panel_offset = -panel_offset
+    tick_array = tick_array.map(row => row.map(x => x + panel_offset));
+    cell = previous_cell ? previous_cell : root;
+    previous_cell = null;
+    update_focus(cell);
+  }
 
 });
