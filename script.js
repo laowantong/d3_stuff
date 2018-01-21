@@ -37,10 +37,7 @@ d3.json("data.json", function(error, data) {
     ],
     PROGRAM_COLOR_SCALE = d3.scaleOrdinal([3,5,1,10,7,2,4].map(i => d3.schemeSet3[i])),
     MIDDLE_COLOR_SCALE = [0,1,2,3,4,5,6].map(i => d3.scaleLinear().range(["white", PROGRAM_COLOR_SCALE(i)])),
-    MODULE_COLOR_SCALE = d3.scaleOrdinal(d3.schemePastel1),
-    EXTERNAL_LINK_ICON = '&#128279; '
-    // '<i class="fa fa-external-link" aria-hidden="true"></i>'
-    // '<span class="fa fa-external-link" title="Consulter la page web."></span>'
+    MODULE_COLOR_SCALE = d3.scaleOrdinal(d3.schemePastel1)
   ;
   // Global variables (geometry)
   var
