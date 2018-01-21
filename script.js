@@ -115,7 +115,7 @@ d3.json("data.json", function(error, data) {
           .call(function(text) {
             text.append("a")
               .attr("target", "_blank")
-              .html("❐ ");
+              .text("❐ ");
             text.append("tspan")
               .classed("label", true);
           })
