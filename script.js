@@ -102,7 +102,7 @@ d3.json("data.json", function(error, data) {
       group.append("foreignObject")
         .attr("style", "overflow:hidden")
         .append("xhtml:body")
-          .html(d => `<div class="description"><h1><a href="${BASE_URL + d.data.anchor}" class="external_link" target="_blank">⊕</a> ${d.data.name} </h1><h2>${d.data.ECTS} ECTS pour ${d.data.volumes}</h2><div class=details value=false></div></div>`)
+          .html(d => `<div class="description"><h1><a href="${BASE_URL + d.data.anchor}" class="external_link" target="_blank">❐ </a>${d.data.name} </h1><h2>${d.data.ECTS} ECTS pour ${d.data.volumes}</h2><div class=details value=false></div></div>`)
     })
   ;
   // Create long vertical text (initially empty) of all narrow colums
@@ -117,7 +117,7 @@ d3.json("data.json", function(error, data) {
           .call(function(text) {
             text.append("a")
               .attr("target", "_blank")
-              .text("⊕ ");
+              .text("❐ ");
             text.append("tspan")
               .classed("label", true);
           })
