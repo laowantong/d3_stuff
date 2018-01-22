@@ -11,7 +11,6 @@ d3.json("data.json", function(error, data) {
       [-0.2, 0.1, 0.2, 0.3, 0.4, 0.5, 1.0],
       [-0.2, 0.1, 0.2, 0.3, 0.4, 0.5, 1.0],
     ],
-    TICK_ARRAY_FOR_WIDE_WIDTH_WITH_OPEN_PANEL = [0, 0.3, 0.6, 0.7, 0.8, 0.9, 1.0],
     TICK_ARRAY_FOR_NARROW_WIDTH = [
       [0, 0, 0.35, 0.45, 0.55, 0.65, 1.0],
       [-0.1, 0, 0.1, 0.2, 0.3, 0.4, 1.0],
@@ -60,7 +59,8 @@ d3.json("data.json", function(error, data) {
     root = d3.partition()(d3.hierarchy(data["tree"])).sum(CUMUL_POLICIES[cumul_policy]),
     cell = root,
     previous_cell,
-    panel_offset = -0.2,
+    PANEL_OFFSET = -TICK_ARRAY_FOR_WIDE_WIDTH[0][0],
+    panel_is_open = false,
     previous_ancestors = [root],
     groups = d3.select("svg")
       .selectAll("g")
@@ -74,7 +74,7 @@ d3.json("data.json", function(error, data) {
   ;
   // WTF?
   d3.partition()(root);
-  //
+  // Move the menu into the root column
   d3.select(".root")
     .append("foreignObject")
         .attr("style", "overflow:hidden")
@@ -113,31 +113,30 @@ d3.json("data.json", function(error, data) {
           .html(d => `<div class="description"><h1><a href="${BASE_URL + d.data.anchor}" class="external_link" target="_blank">❐ </a>${d.data.name} </h1><h2>${d.data.ECTS} ECTS pour ${d.data.volumes}</h2><div class=details value=false></div></div>`)
     })
   ;
-  // Create root text on first column
+  // Create vertical title on first column
   d3.select("svg")
     .append("g")
       .attr("class", "fixed")
       .selectAll("g")
         .data([0]).enter()
         .append("text")
+          .attr("class", "fixed_0")
           .text(root.data.long_name)
   ;
   // Create long vertical text (initially hidden) of all narrow colums
-  d3.select("svg")
-    .append("g")
-      .attr("class", "fixed")
-      .selectAll("g")
-        .data([1, 2, 3, 4]).enter()
-        .append("text")
-          .attr("class", i => `fixed_${i}`)
-          .attr("visibility", "hidden")
-          .call(function(text) {
-            text.append("a")
-              .attr("target", "_blank")
-              .text("❐ ");
-            text.append("tspan")
-              .classed("label", true);
-          })
+  d3.select(".fixed")
+    .selectAll("g")
+      .data([1, 2, 3, 4]).enter()
+      .append("text")
+        .attr("class", i => `fixed_${i}`)
+        .attr("visibility", "hidden")
+        .call(function(text) {
+          text.append("a")
+            .attr("target", "_blank")
+            .text("❐ ");
+          text.append("tspan")
+            .classed("label", true);
+        })
   ;
   // Check the default cumul policy radio button
   d3.select(`input[value="${cumul_policy}"]`)
@@ -202,7 +201,7 @@ d3.json("data.json", function(error, data) {
         .attr("width", cell_width)
         .attr("height", cell_height)
     ;
-    group.select(".module foreignObject")
+    group.select(".module foreignObject, .root foreignObject")
       .attr("width", cell_width)
       .attr("height", cell_height)
   }
@@ -304,8 +303,8 @@ d3.json("data.json", function(error, data) {
       .attr("visibility", d => d.depth > cell.depth ? "visible" : "hidden")
     ;
     // Update group geometry
-    groups.transition()
-      .duration(d3.event.altKey ? 7000 : 700)
+    groups
+      .transition().duration(d3.event.altKey ? 7000 : 700)
       .call(update_group_geometry)
     ;
     // Post-treatments
@@ -315,11 +314,21 @@ d3.json("data.json", function(error, data) {
   };
   
   function switch_panel() {
-    panel_offset = -panel_offset
+    panel_is_open = !panel_is_open
+    var panel_offset = panel_is_open ? PANEL_OFFSET : -PANEL_OFFSET
+    d3.select(".fixed_0").style("display", panel_is_open ? "none" : "block");
     tick_array = tick_array.map(row => row.map(x => x + panel_offset));
-    cell = previous_cell ? previous_cell : root;
-    previous_cell = null;
-    update_focus(cell);
+    update_scales();
+    // Recalculate the position of vertical texts
+    d3.selectAll(".fixed text")
+      .transition().duration(d3.event.altKey ? 7000 : 700)
+      .attr("y", i => (ticks[i+1] + Math.max(0, ticks[i])) * 5 * unit_width)
+    ;
+    // Update group geometry
+    groups
+      .transition().duration(d3.event.altKey ? 7000 : 700)
+      .call(update_group_geometry)
+    ;
   }
 
 });
