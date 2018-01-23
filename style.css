@@ -3,13 +3,11 @@
 text {
   font-family: sans-serif;
   fill: #444;
-  cursor: pointer;
 }
 
 rect {
   stroke: black;
   stroke-width: 0.3;
-  cursor: pointer;
 }
 
 /* Column "Root" */
@@ -22,7 +20,6 @@ rect {
 
 .program {
   font-family: sans-serif;
-  cursor: pointer;
   color: #444;
 }
 
@@ -126,6 +123,7 @@ img {
   position: relative;
   margin: 0 auto;
   opacity:0;
+  cursor: pointer;
 }
 
 #ring {

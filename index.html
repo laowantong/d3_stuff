@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-        <link type="text/css" rel="stylesheet" href="style.css"/>
-        <link type="text/css" rel="stylesheet" href="menu.css"/>
-    </head>
-
-    <body id="main">
-        <div id="loader">
-            <div id="logo"></div>
-            <div id="ring"></div>
-        </div>
-        <div id="chart">
-            <svg width="100%" height="100%">
-        </div>
-        <input type="checkbox" id="menuToggle">
-        <nav id="menu">
-            <ul class="ul_menu">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body id="main">
+    <div id="loader">
+      <div id="logo"></div>
+      <div id="ring"></div>
+    </div>
+    <div id="chart">
+      <svg width="100%" height="100%">
+        <foreignObject id="panel" style="overflow:hidden">
+          <body>
+            <input type="checkbox"/>
+            <nav id="menu">
+              <ul class="ul_menu">
                 <p>Hauteur des modules</p>
                 <ul>
-                    <li class="li_menu"><label><input type="radio" name="accumulator" value="modules"> constante</input></label></li>
-                    <li class="li_menu"><label><input type="radio" name="accumulator" value="volumes"> proportionnelle au volume</input></label></li>
-                    <li class="li_menu"><label><input type="radio" name="accumulator" value="ECTS"> proportionnelle aux ECTS</input></label></li>
-                </ul>   
-            </ul>
-            <ul class="ul_menu">
+                  <li class="li_menu"><label><input type="radio" name="accumulator" value="modules"> constante</label></li>
+                  <li class="li_menu"><label><input type="radio" name="accumulator" value="volumes"> proportionnelle au volume</label></li>
+                  <li class="li_menu"><label><input type="radio" name="accumulator" value="ECTS"> proportionnelle aux ECTS</label></li>
+                </ul>
+              </ul>
+              <ul class="ul_menu">
                 <p>Langues d'enseignement</p>
                 <ul>
-                    <li class="li_menu"><label><input type="checkbox" checked=1 name="language_filter" value=1> allemand</input></label></li>
-                    <li class="li_menu"><label><input type="checkbox" checked=1 name="language_filter" value=2> français</input></label></li>
-                    <li class="li_menu"><label><input type="checkbox" checked=1 name="language_filter" value=4> anglais</input></label></li>
-                </ul>   
+                  <li class="li_menu"><label><input type="checkbox" checked="1" name="language_filter" value="1"> allemand</label></li>
+                  <li class="li_menu"><label><input type="checkbox" checked="1" name="language_filter" value="2"> français</label></li>
+                  <li class="li_menu"><label><input type="checkbox" checked="1" name="language_filter" value="4"> anglais</label></li>
+                </ul>
                 <p>Modules partagés avec d'autres filières</p>
                 <ul>
-                    <li class="li_menu"><label><input type="checkbox" checked=1 name="sharing_filter" value=1> non</input></label></li>
-                    <li class="li_menu"><label><input type="checkbox" checked=1 name="sharing_filter" value=2> de l'ISFATES</input></label></li>
-                    <li class="li_menu"><label><input type="checkbox" checked=1 name="sharing_filter" value=4> d'un autre établissement</input></label></li>
-                </ul>   
-            </ul>
-        </nav>
-        <script src="d3.min.js"></script>
-        <script src="d3-scale-chromatic.v1.min.js"></script>
-        <script type="text/javascript" src="script.js"></script>
-    </body>
+                  <li class="li_menu"><label><input type="checkbox" checked="1" name="sharing_filter" value="2"> de l'ISFATES</label></li>
+                  <li class="li_menu"><label><input type="checkbox" checked="1" name="sharing_filter" value="4"> d'un autre établissement</label></li>
+                  <li class="li_menu"><label><input type="checkbox" checked="1" name="sharing_filter" value="1"> non</label></li>
+                </ul>
+              </ul>
+            </nav>
+          </body>
+        </foreignObject>
+      </svg>
+    </div>
+    <script src="d3.min.js"></script>
+    <script src="d3-scale-chromatic.v1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>

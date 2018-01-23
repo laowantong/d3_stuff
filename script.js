@@ -65,7 +65,7 @@ d3.json("data.json", function(error, data) {
     groups = d3.select("svg")
       .selectAll("g")
       .data(root.descendants()).enter()
-      .append("g")
+      .insert("g", "#panel")
         .attr("class", d => d.data.nature)
         .on("click", cell => cell.depth ? update_focus(cell) : switch_panel())
         .call(function(group) {
@@ -74,13 +74,6 @@ d3.json("data.json", function(error, data) {
   ;
   // WTF?
   d3.partition()(root);
-  // Move the menu into the root column
-  d3.select(".root")
-    .append("foreignObject")
-        .attr("style", "overflow:hidden")
-        .append("xhtml:body")
-          .append(() => d3.select("#menu").remove().node())
-  ;
   // Set color and multiline text of Program cells
   groups.filter(".program")
     .call(function(group) {
@@ -115,7 +108,7 @@ d3.json("data.json", function(error, data) {
   ;
   // Create vertical title on first column
   d3.select("svg")
-    .append("g")
+    .insert("g", "#panel")
       .attr("class", "fixed")
       .selectAll("g")
         .data([0]).enter()
@@ -138,6 +131,7 @@ d3.json("data.json", function(error, data) {
             .classed("label", true);
         })
   ;
+  
   // Check the default cumul policy radio button
   d3.select(`input[value="${cumul_policy}"]`)
     .property("checked", true)
@@ -195,15 +189,18 @@ d3.json("data.json", function(error, data) {
     d3.select("#chart").style("height", `${chart_height}px`);
   }
 
-  function update_group_geometry(group) {
-    group.attr("transform", d => `translate(${x_scale(d.y0)},${y_scale(d.x0)})`)
-      .select("rect")
-        .attr("width", cell_width)
-        .attr("height", cell_height)
+  function update_geometry(milliseconds) {
+    groups
+      .transition().duration(milliseconds)
+      .attr("transform", d => `translate(${x_scale(d.y0)},${y_scale(d.x0)})`)
+        .select("rect")
+          .attr("width", cell_width)
+          .attr("height", cell_height)
     ;
-    group.select(".module foreignObject, .root foreignObject")
+    groups.selectAll(".module foreignObject")
       .attr("width", cell_width)
       .attr("height", cell_height)
+    ;
   }
 
   function update_dimensions() {
@@ -212,8 +209,7 @@ d3.json("data.json", function(error, data) {
     unit_width = chart_width / 10;
     tick_array = screen.width <= 640 ? TICK_ARRAY_FOR_NARROW_WIDTH : TICK_ARRAY_FOR_WIDE_WIDTH;
     update_scales();
-
-    groups.call(update_group_geometry);
+    update_geometry(0);
 
     d3.select("#chart").style("width", `${chart_width}px`);
     d3.select("#menu").style("height", `${chart_height}px`);
@@ -241,6 +237,12 @@ d3.json("data.json", function(error, data) {
       .attr("y", i => (ticks[i+1] + Math.max(0, ticks[i])) * 5 * unit_width)
       .style("font-size", `${font_size}px`)
     ;
+    // Update dimensions of panel
+    d3.select("#panel")
+      .attr("x", -2 * unit_width)
+      .attr("width", 2 * unit_width)
+      .attr("height", chart_height)
+    ;
   }
 
 
@@ -253,7 +255,7 @@ d3.json("data.json", function(error, data) {
     // Recalculate the position of vertical texts
     d3.selectAll(".fixed text")
       .transition().duration(0)
-      .delay(d3.event.altKey ? 5000 : 500)
+      .delay(500)
       .attr("y", i => (ticks[i+1] + Math.max(0, ticks[i])) * 5 * unit_width)
     ;
     // When all module heights are equals and the focus is on a Program, print them as a list
@@ -276,7 +278,7 @@ d3.json("data.json", function(error, data) {
     new_ancestors.map(function(d) {
       d3.select(".fixed_" + d.depth)
         .transition().duration(0)
-        .delay(d3.event.altKey ? 5000 : 500)
+        .delay(500)
         .attr("visibility", "visible")
       ;
       d3.select(`.fixed_${d.depth}>a`)
@@ -302,32 +304,30 @@ d3.json("data.json", function(error, data) {
     d3.selectAll(".program foreignObject,.year text,.semester text,.UE text")
       .attr("visibility", d => d.depth > cell.depth ? "visible" : "hidden")
     ;
-    // Update group geometry
-    groups
-      .transition().duration(d3.event.altKey ? 7000 : 700)
-      .call(update_group_geometry)
-    ;
     // Post-treatments
+    update_geometry(700);
     d3.event.stopPropagation();
     previous_ancestors = cell.ancestors();
     previous_cell = cell;
   };
   
   function switch_panel() {
-    panel_is_open = !panel_is_open
-    var panel_offset = panel_is_open ? PANEL_OFFSET : -PANEL_OFFSET
+    panel_is_open = !panel_is_open;
+    var panel_offset = panel_is_open ? PANEL_OFFSET : -PANEL_OFFSET;
     d3.select(".fixed_0").style("display", panel_is_open ? "none" : "block");
     tick_array = tick_array.map(row => row.map(x => x + panel_offset));
     update_scales();
     // Recalculate the position of vertical texts
     d3.selectAll(".fixed text")
-      .transition().duration(d3.event.altKey ? 7000 : 700)
+      .transition().duration(700)
       .attr("y", i => (ticks[i+1] + Math.max(0, ticks[i])) * 5 * unit_width)
     ;
+    d3.select("#panel")
+      .transition().duration(700)
+      .attr("x", panel_offset * 5 * unit_width - 0.7 * unit_width)
+    ;
     // Update group geometry
-    groups
-      .transition().duration(d3.event.altKey ? 7000 : 700)
-      .call(update_group_geometry)
+    update_geometry(700);
     ;
   }
 
