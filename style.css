@@ -88,8 +88,7 @@ img {
 }
 
 .listing {
-  margin-top: -1.2ex;
-  margin-left: -0.2em;
+  margin: -1.7ex -0.5em;
 }
 
 .listing h1, .listing h2 {
@@ -98,7 +97,13 @@ img {
   font-weight: normal;
 }
 
-.listing h2:before { content: " — " };
+.listing h1 {
+  float: left;
+}
+
+.listing h2 {
+  float: right;
+}
 
 /* Columns with vertical labels */
 
@@ -108,6 +113,9 @@ img {
   transform: rotate(-90deg);
   dominant-baseline: middle;
   text-anchor: middle;
+}
+
+.label {
   pointer-events: none;
 }
 
@@ -159,4 +167,27 @@ img {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+.external_link {
+  margin-right: 0.4em;
+}
+
+/* Links */
+
+.link_container {
+  padding:0.3em 0.5em;
+  border: solid 1px transparent;
+  border-radius: 0.3em;
+  pointer-events: none;
+}
+.link_container:hover {
+  background-color: rgba(256, 256, 256, 0.5);
+  color: #222;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.link_container > .external_link {
+  pointer-events: auto;
+  display: inline-block;
 }

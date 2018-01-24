@@ -103,7 +103,7 @@ d3.json("data.json", function(error, data) {
       group.append("foreignObject")
         .attr("style", "overflow:hidden")
         .append("xhtml:body")
-          .html(d => `<div class="description"><h1><a href="${BASE_URL + d.data.anchor}" class="external_link" target="_blank">❐ </a>${d.data.name} </h1><h2>${d.data.ECTS} ECTS pour ${d.data.volumes}</h2><div class=details value=false></div></div>`)
+          .html(d => `<div class="description"><h1><span class="link_container"><a href="${BASE_URL + d.data.anchor}" class="external_link" target="_blank">❐</a>${d.data.name}</span></h1><h2>${d.data.volumes} = ${d.data.ECTS} ECTS</h2><div class=details value=false></div></div>`)
     })
   ;
   // Create vertical title on first column
@@ -116,7 +116,7 @@ d3.json("data.json", function(error, data) {
           .attr("class", "fixed_0")
           .text(root.data.long_name)
   ;
-  // Create long vertical text (initially hidden) of all narrow colums
+  // Create long vertical text (initially empty) of all narrow colums
   d3.select(".fixed")
     .selectAll("g")
       .data([1, 2, 3, 4]).enter()
@@ -125,8 +125,10 @@ d3.json("data.json", function(error, data) {
         .attr("visibility", "hidden")
         .call(function(text) {
           text.append("a")
+            .attr("xlink:href", null)
             .attr("target", "_blank")
-            .text("❐ ");
+            .classed("external_link", true) // FIXME: this class has no effect on the style
+            .text("❐ ")
           text.append("tspan")
             .classed("label", true);
         })
