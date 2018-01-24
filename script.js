@@ -67,10 +67,8 @@ d3.json("data.json", function(error, data) {
       .data(root.descendants()).enter()
       .insert("g", "#panel")
         .attr("class", d => d.data.nature)
-        .on("click", cell => cell.depth ? update_focus(cell) : switch_panel())
-        .call(function(group) {
-          group.append("rect")
-        })
+        .on("click", update_focus)
+        .call(group => group.append("rect"))
   ;
   // WTF?
   d3.partition()(root);
@@ -174,6 +172,7 @@ d3.json("data.json", function(error, data) {
   d3.select("#loader").remove();
   d3.select("#main").style("background", "black");
   d3.select("#chart").style("opacity", 1);
+  d3.select("#toggle_icon").on("click", () => switch_panel());
   
   function update_cumul() {
     d3.partition()(root.sum(CUMUL_POLICIES[cumul_policy]));
@@ -239,11 +238,17 @@ d3.json("data.json", function(error, data) {
       .attr("y", i => (ticks[i+1] + Math.max(0, ticks[i])) * 5 * unit_width)
       .style("font-size", `${font_size}px`)
     ;
+    // Dimension the invisible container of the Settings' icon
+    d3.select("#toggle_box")
+      .style("width", `${unit_width}px`)
+      .style("height", `${unit_width}px`)
+    ;
     // Update dimensions of panel
     d3.select("#panel")
-      .attr("x", -2 * unit_width)
-      .attr("width", 2 * unit_width)
-      .attr("height", chart_height)
+      .attr("x", -3 * unit_width)
+      .attr("y", unit_width)
+      .attr("width", 3 * unit_width)
+      .attr("height", chart_height - unit_width)
     ;
   }
 
@@ -316,6 +321,10 @@ d3.json("data.json", function(error, data) {
   function switch_panel() {
     panel_is_open = !panel_is_open;
     var panel_offset = panel_is_open ? PANEL_OFFSET : -PANEL_OFFSET;
+    if (panel_is_open) {
+      d3.select(".fixed_0").attr("opacity", 0);
+      d3.select("#toggle_icon").classed("open", true);
+    }
     d3.select(".fixed_0").style("display", panel_is_open ? "none" : "block");
     tick_array = tick_array.map(row => row.map(x => x + panel_offset));
     update_scales();
@@ -326,8 +335,16 @@ d3.json("data.json", function(error, data) {
     ;
     d3.select("#panel")
       .transition().duration(700)
-      .attr("x", panel_offset * 5 * unit_width - 0.7 * unit_width)
+      .attr("x", (panel_offset * 10 - 2) / 2 * unit_width)
+      .attr("opacity", panel_is_open ? 1 : 0)
     ;
+    if (!panel_is_open) {
+      d3.select(".fixed_0")
+        .transition().duration(0)
+        .delay(500)
+        .attr("opacity", 1)
+      d3.select("#toggle_icon").classed("open", false);
+    }
     // Update group geometry
     update_geometry(700);
     ;
