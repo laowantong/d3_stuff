@@ -170,7 +170,7 @@ d3.json("data.json", function(error, data) {
   update_dimensions();
   window.addEventListener("resize", update_dimensions);
   d3.select("#loader").remove();
-  d3.select("#main").style("background", "black");
+  d3.select("#main").style("background", "#444");
   d3.select("#chart").style("opacity", 1);
   d3.select("#toggle_icon").on("click", () => switch_panel());
   
@@ -182,7 +182,7 @@ d3.json("data.json", function(error, data) {
   
   function update_scales() {
     ticks = tick_array[cell.depth];
-    handle_height = cell.x0 ? chart_height / (screen.width <= 640 ? 15 : 20) : 0;
+    handle_height = cell.x0 > 0 & cell.x1 < 1 ? chart_height / (screen.width <= 640 ? 15 : 20) : 0;
     x_scale.domain(Array.from([0,1,2,3,4,5,6]).map(i => i/6)).range(ticks.map(x => x * chart_width));
     y_scale.domain([cell.x0, cell.x1]).range([handle_height, chart_height - handle_height]);
     cell_width = d => x_scale(d.y1) - x_scale(d.y0);
@@ -206,7 +206,7 @@ d3.json("data.json", function(error, data) {
 
   function update_dimensions() {
     chart_height = Math.max(640, window.innerHeight);
-    chart_width = Math.max(640, Math.min(chart_height, window.innerWidth));
+    chart_width = Math.max(640, window.innerWidth);
     unit_width = chart_width / 10;
     tick_array = screen.width <= 640 ? TICK_ARRAY_FOR_NARROW_WIDTH : TICK_ARRAY_FOR_WIDE_WIDTH;
     update_scales();
@@ -232,7 +232,7 @@ d3.json("data.json", function(error, data) {
         .style("font-size", `${font_size}px`)
     ;
     // Update dimensions of vertical middle texts
-    font_size = Math.min(unit_width / 2, chart_height / 40);
+    font_size = Math.min(unit_width / 2, chart_height / 30);
     d3.selectAll(".fixed text")
       .attr("x", - chart_height / 2)
       .attr("y", i => (ticks[i+1] + Math.max(0, ticks[i])) * 5 * unit_width)
