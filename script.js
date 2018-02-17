@@ -216,7 +216,7 @@ d3.json("data.json", function(error, data) {
     d3.select("#menu").style("height", `${chart_height}px`);
 
     // Update dimensions of multiline Program texts
-    font_size = Math.min(unit_width / 3, chart_height / 60);
+    var font_size = Math.min(unit_width / 3, chart_height / 60);
     groups.filter(".program")
       .select("foreignObject")
         .attr("width", cell_width)
