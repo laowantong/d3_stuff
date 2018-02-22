@@ -1,26 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-        <link type="text/css" rel="stylesheet" href="style.css"/>
-        <script src="d3.min.js"></script>
-        <script src="d3-scale-chromatic.v1.min.js"></script>
-    </head>
-    <body id="main">
-        <div id="logo"></div>
-        <div id="loader"></div>
-        <div id="background">
-            <span id="header"></span>
-            <div id="footer">
-              Les hauteurs sont proportionnelles
-              <label><input type="radio" name="accumulator" value="modules"> au nombre </input></label>
-              <label><input type="radio" name="accumulator" value="volumes"> au volume </input></label>
-              <label><input type="radio" name="accumulator" value="ECTS"> aux ECTS des modules.</input></label>
-            </div>
-        </div>
-        <div id="chart">
-            <svg width="100%" height="100%">
-        </div>
-        <script type="text/javascript" src="script.js"></script>
-    </body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body id="main">
+    <div id="loader">
+      <div id="logo"></div>
+      <div id="ring"></div>
+    </div>
+    <div id="chart">
+      <svg width="100%" height="100%">
+        <foreignObject id="panel" style="overflow:hidden">
+          <body>
+            <nav id="menu">
+              <ul class="ul_menu">
+                <p>Hauteur des modules :</p>
+                <ul>
+                  <li class="li_menu"><label><input type="radio" name="accumulator" value="modules"> constante</label></li>
+                  <li class="li_menu"><label><input type="radio" name="accumulator" value="volumes"> relative au volume</label></li>
+                  <li class="li_menu"><label><input type="radio" name="accumulator" value="ECTS"> relative aux ECTS</label></li>
+                </ul>
+              </ul>
+              <ul class="ul_menu">
+                <p>Langues d'enseignement :</p>
+                <ul>
+                  <li class="li_menu"><label><input type="checkbox" checked="1" name="language_filter" value="1"> allemand</label></li>
+                  <li class="li_menu"><label><input type="checkbox" checked="1" name="language_filter" value="2"> français</label></li>
+                  <li class="li_menu"><label><input type="checkbox" checked="1" name="language_filter" value="4"> anglais</label></li>
+                </ul>
+                <p>Modules communs à d'autres filières :</p>
+                <ul>
+                  <li class="li_menu"><label><input type="checkbox" checked="1" name="sharing_filter" value="1"> non</label></li>
+                  <li class="li_menu"><label><input type="checkbox" checked="1" name="sharing_filter" value="2"> de l'ISFATES</label></li>
+                  <li class="li_menu"><label><input type="checkbox" checked="1" name="sharing_filter" value="4"> d'un autre établissement</label></li>
+                </ul>
+              </ul>
+              <div id="footnotes">
+                <p>Les nouveaux programmes étant en cours d'accréditation, des modifications pourront être apportées à certains contenus ou ECTS d'ici la rentrée 2018. Les liens vers le détail des aperçus des modules ne seront fonctionnels qu'après officialisation des maquettes.<br>Base de données, design et développement par Aristide Grange, enseignant d'informatique à l'ISFATES. Visualisation interactive : bibliothèque <a target="_blank" href="https://d3js.org">D3.js</a> par Mike Bostock.</p>
+              </div>
+            </nav>
+          </body>
+        </foreignObject>
+      </svg>
+      <input type="checkbox" id="menu_toggle"/>
+      <div id=toggle_box>
+        <span for="menu_toggle" id="toggle_icon">☰</span>
+      </div>
+    </div>
+    <script src="d3.min.js"></script>
+    <script src="d3-scale-chromatic.v1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>
