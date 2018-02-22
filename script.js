@@ -34,9 +34,15 @@ d3.json("data.json", function(error, data) {
       "<span class=big>Génie</span><br><span class=big>mécanique</span>",
       "<span class=big>Génie civil</span><br>et management en Europe",
     ],
-    PROGRAM_COLOR_SCALE = d3.scaleOrdinal([3,5,1,10,7,2,4].map(i => d3.schemeSet3[i])),
+    // PROGRAM_COLOR_SCALE = d3.scaleOrdinal([3,5,1,10,7,2,4].map(i => d3.schemeSet3[i])),
+    // PROGRAM_COLOR_SCALE = d3.scaleOrdinal(["#be7900", "#F6A800", "#ffd94a", "#cdd8aa", "#63d8ff", "#02A7E3", "#0078b1"]),
+    // PROGRAM_COLOR_SCALE = d3.scaleOrdinal(["#F6A800", "#f9c555", "#fdd88e", "#cfd8c2", "#8ed8f2", "#56c4ec", "#02A7E3"]),
+    // PROGRAM_COLOR_SCALE = d3.scaleOrdinal(['#f6a800','#f9ba00','#fccb00','#ffdd00', "#d4c972", "#9cb7ac", "#02a7e3"]),
+    PROGRAM_COLOR_SCALE = d3.scaleOrdinal(['#f6a800','#fbc200','#ffdd00','#e0cf60','#bcc18f','#8bb3b9','#02a7e3']),
     MIDDLE_COLOR_SCALE = [0,1,2,3,4,5,6].map(i => d3.scaleLinear().range(["white", PROGRAM_COLOR_SCALE(i)])),
-    MODULE_COLOR_SCALE = d3.scaleOrdinal(d3.schemePastel1)
+    // MODULE_COLOR_SCALE = d3.scaleOrdinal(d3.schemePastel1)
+    // MODULE_COLOR_SCALE = d3.scaleOrdinal(['#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9'])
+    MODULE_COLOR_SCALE = d3.scaleOrdinal(['#66c2a5','#fc8d62','#8da0cb','#e78ac3','#a6d854','#ffd92f','#e5c494','#b3b3b3'])
   ;
   // Global variables (geometry)
   var
