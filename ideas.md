@@ -1,7 +1,0 @@
-- Transformer les (+) en une icone de lien plus classique (utiliser FontAwesome).
-- Ajouter des doubles chevrons horizontaux au survol pour le scrolling au niveau des cellules qui, une fois cliquées, vont déclencher un scrolling.
-- Faire un volet de réglages escamotable.
-- Aspect responsive (Bootstrap).
-- Aspect mobile: gérer correctement les "touches"
-- Gérer le scrolling auquel les gens sont habitués.
-- test fabrice
