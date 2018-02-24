@@ -36,6 +36,7 @@
 "EC_id":"LANGUES_1",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.017,
 "program":0
 },
@@ -50,6 +51,7 @@
 "EC_id":"MANAG_INTCULT_CIV_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.033,
 "program":0
 }
@@ -74,6 +76,7 @@
 "EC_id":"ANGLAIS_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.067,
 "program":0
 }
@@ -98,6 +101,7 @@
 "EC_id":"MATHEMATIQUES_DE_GESTION",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.083,
 "program":0
 },
@@ -112,6 +116,7 @@
 "EC_id":"INFO_GESTION_TECHNO_WEB",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.1,
 "program":0
 }
@@ -136,6 +141,7 @@
 "EC_id":"DROIT_DES_AFFAIRES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.111,
 "program":0
 },
@@ -150,6 +156,7 @@
 "EC_id":"CONNAISSANCE_ENTREPRISES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.122,
 "program":0
 },
@@ -164,6 +171,7 @@
 "EC_id":"GESTION_DES_OPERATIONS",
 "language_mask":4,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.133,
 "program":0
 }
@@ -188,6 +196,7 @@
 "EC_id":"COMPTABILITE_GENERALE",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.15,
 "program":0
 },
@@ -202,6 +211,7 @@
 "EC_id":"FISCALITE_ENTREPR_FRANCE",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.167,
 "program":0
 }
@@ -236,6 +246,7 @@
 "EC_id":"LANGUES_2",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.183,
 "program":0
 },
@@ -250,6 +261,7 @@
 "EC_id":"MANAG_INTCULT_CIV_2",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.2,
 "program":0
 }
@@ -274,6 +286,7 @@
 "EC_id":"ANGLAIS_2",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.233,
 "program":0
 }
@@ -298,6 +311,7 @@
 "EC_id":"PROBABILITES_STATISTIQUES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.244,
 "program":0
 },
@@ -312,6 +326,7 @@
 "EC_id":"MATHEMATIQUES_FINANCIERES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.256,
 "program":0
 },
@@ -326,6 +341,7 @@
 "EC_id":"BD_RELATIONNELLES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.267,
 "program":0
 }
@@ -350,6 +366,7 @@
 "EC_id":"MKTG_1_FONDEMENTS_MKTG",
 "language_mask":4,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.278,
 "program":0
 },
@@ -364,6 +381,7 @@
 "EC_id":"GESTION_RESS_HUMAINES_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.289,
 "program":0
 },
@@ -378,6 +396,7 @@
 "EC_id":"MICROECONOMIE",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.3,
 "program":0
 }
@@ -402,6 +421,7 @@
 "EC_id":"INVESTISS_FINANCES_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.317,
 "program":0
 },
@@ -416,6 +436,7 @@
 "EC_id":"COMPTES_ANNUELS",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.333,
 "program":0
 }
@@ -460,6 +481,7 @@
 "EC_id":"LANGUES_3",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.347,
 "program":0
 },
@@ -474,6 +496,7 @@
 "EC_id":"ANGLAIS_3",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.361,
 "program":0
 }
@@ -498,6 +521,7 @@
 "EC_id":"MANAG_INTCULT_CIV_3_GEST",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.37,
 "program":0
 },
@@ -512,6 +536,7 @@
 "EC_id":"INTRO_TRAVAIL_ACADEMIQUE",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.38,
 "program":0
 },
@@ -526,6 +551,7 @@
 "EC_id":"GESTION_DE_PROJET_1_SG",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.389,
 "program":0
 }
@@ -550,6 +576,7 @@
 "EC_id":"THEORIE_DE_LA_DECISION",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.403,
 "program":0
 },
@@ -564,6 +591,7 @@
 "EC_id":"MKTG_2_MKTG_OPERATIONNEL",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.417,
 "program":0
 }
@@ -588,6 +616,7 @@
 "EC_id":"COMPTA_ANALYTIQUE_SG",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.431,
 "program":0
 },
@@ -602,6 +631,7 @@
 "EC_id":"COMPTABILITE_EXTERNE_SG",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.444,
 "program":0
 }
@@ -626,6 +656,7 @@
 "EC_id":"MACROECONOMIE",
 "language_mask":5,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.472,
 "program":0
 }
@@ -650,6 +681,7 @@
 "EC_id":"INTRO_DROIT_ALLEMAND",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.5,
 "program":0
 }
@@ -684,6 +716,7 @@
 "EC_id":"LANGUES_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.514,
 "program":0
 },
@@ -698,6 +731,7 @@
 "EC_id":"ANGLAIS_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.528,
 "program":0
 }
@@ -722,6 +756,7 @@
 "EC_id":"MANAG_INTCULT_CIV_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.542,
 "program":0
 },
@@ -736,6 +771,7 @@
 "EC_id":"GESTION_DE_PROJET_2_SG",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.556,
 "program":0
 }
@@ -760,6 +796,7 @@
 "EC_id":"ORGANISATION_SG",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.569,
 "program":0
 },
@@ -774,6 +811,7 @@
 "EC_id":"FISCALITE_DES_ENTREPRISES",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.583,
 "program":0
 }
@@ -798,6 +836,7 @@
 "EC_id":"INFORMATIQUE_ECONOMIE_SG",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.597,
 "program":0
 },
@@ -812,6 +851,7 @@
 "EC_id":"PROGI_GESTION_INT_SAP_SG",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.611,
 "program":0
 }
@@ -836,6 +876,7 @@
 "EC_id":"CONTRATS_NEGOCI_CONTRACTU",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.625,
 "program":0
 },
@@ -850,6 +891,7 @@
 "EC_id":"DROIT_COMMERC_CORPORATIF",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.639,
 "program":0
 }
@@ -874,6 +916,7 @@
 "EC_id":"SEMINAIRE_ADMIN_AFFAIRES",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.653,
 "program":0
 },
@@ -888,6 +931,7 @@
 "EC_id":"OPTION_EN_ANGLAIS_SG",
 "language_mask":4,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.667,
 "program":0
 }
@@ -932,6 +976,7 @@
 "EC_id":"LANGUES_5",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.681,
 "program":0
 },
@@ -946,6 +991,7 @@
 "EC_id":"ANGLAIS_5",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.694,
 "program":0
 }
@@ -970,6 +1016,7 @@
 "EC_id":"GESTION_DE_PROJET_3_SG",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.722,
 "program":0
 }
@@ -994,6 +1041,7 @@
 "EC_id":"METHODO_ETUDES_MARCHE",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.731,
 "program":0
 },
@@ -1008,6 +1056,7 @@
 "EC_id":"SIMULATION_DE_GESTION",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.741,
 "program":0
 },
@@ -1022,6 +1071,7 @@
 "EC_id":"VBA_OUT_BUREAUT_AVANCES",
 "language_mask":2,
 "sharing_mask":6,
+"program_type_mask":1,
 "ratio":0.75,
 "program":0
 }
@@ -1046,6 +1096,7 @@
 "EC_id":"MANAGEMENT_INTERNATIONAL",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.764,
 "program":0
 },
@@ -1060,6 +1111,7 @@
 "EC_id":"MANAGEMENT_EQUIPE_PROJET",
 "language_mask":2,
 "sharing_mask":6,
+"program_type_mask":1,
 "ratio":0.778,
 "program":0
 }
@@ -1084,6 +1136,7 @@
 "EC_id":"COMMERCE_INTERNATIONAL",
 "language_mask":2,
 "sharing_mask":6,
+"program_type_mask":1,
 "ratio":0.787,
 "program":0
 },
@@ -1098,6 +1151,7 @@
 "EC_id":"MKTG_3_STRATEG_DIGITAL",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.796,
 "program":0
 },
@@ -1112,6 +1166,7 @@
 "EC_id":"NOUV_FORMES_ORGANISATION",
 "language_mask":2,
 "sharing_mask":6,
+"program_type_mask":1,
 "ratio":0.806,
 "program":0
 }
@@ -1136,6 +1191,7 @@
 "EC_id":"INTRO_NORMES_COMPT_INTNAT",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.815,
 "program":0
 },
@@ -1150,6 +1206,7 @@
 "EC_id":"ANALYSE_MANAGEMENT_COUTS",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.824,
 "program":0
 },
@@ -1164,6 +1221,7 @@
 "EC_id":"ANALYSE_FINANCIERE",
 "language_mask":2,
 "sharing_mask":4,
+"program_type_mask":1,
 "ratio":0.833,
 "program":0
 }
@@ -1198,6 +1256,7 @@
 "EC_id":"STAGE_GESTION",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.875,
 "program":0
 },
@@ -1212,6 +1271,7 @@
 "EC_id":"RAPPORT_STAGE_EXP_INTCULT",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.917,
 "program":0
 }
@@ -1236,6 +1296,7 @@
 "EC_id":"MEMOIRE_LICENCE_GESTION",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.958,
 "program":0
 },
@@ -1250,6 +1311,7 @@
 "EC_id":"SEMINAIRE_LICENCE_GESTION",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":1.0,
 "program":0
 }
@@ -1303,6 +1365,7 @@
 "EC_id":"LANGUES_1",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.017,
 "program":1
 },
@@ -1317,6 +1380,7 @@
 "EC_id":"MANAG_INTCULT_CIV_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.033,
 "program":1
 }
@@ -1341,6 +1405,7 @@
 "EC_id":"ANGLAIS_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.067,
 "program":1
 }
@@ -1365,6 +1430,7 @@
 "EC_id":"MATHEMATIQUES_DE_GESTION",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.083,
 "program":1
 },
@@ -1379,6 +1445,7 @@
 "EC_id":"INFO_GESTION_TECHNO_WEB",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.1,
 "program":1
 }
@@ -1403,6 +1470,7 @@
 "EC_id":"DROIT_DES_AFFAIRES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.111,
 "program":1
 },
@@ -1417,6 +1485,7 @@
 "EC_id":"CONNAISSANCE_ENTREPRISES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.122,
 "program":1
 },
@@ -1431,6 +1500,7 @@
 "EC_id":"GESTION_DES_OPERATIONS",
 "language_mask":4,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.133,
 "program":1
 }
@@ -1455,6 +1525,7 @@
 "EC_id":"COMPTABILITE_GENERALE",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.15,
 "program":1
 },
@@ -1469,6 +1540,7 @@
 "EC_id":"ECON_TRANSP_LOGIST_INTNAT",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.167,
 "program":1
 }
@@ -1503,6 +1575,7 @@
 "EC_id":"LANGUES_2",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.183,
 "program":1
 },
@@ -1517,6 +1590,7 @@
 "EC_id":"MANAG_INTCULT_CIV_2",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.2,
 "program":1
 }
@@ -1541,6 +1615,7 @@
 "EC_id":"ANGLAIS_2",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.233,
 "program":1
 }
@@ -1565,6 +1640,7 @@
 "EC_id":"PROBABILITES_STATISTIQUES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.244,
 "program":1
 },
@@ -1579,6 +1655,7 @@
 "EC_id":"MATHEMATIQUES_FINANCIERES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.256,
 "program":1
 },
@@ -1593,6 +1670,7 @@
 "EC_id":"BD_RELATIONNELLES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.267,
 "program":1
 }
@@ -1617,6 +1695,7 @@
 "EC_id":"MKTG_1_FONDEMENTS_MKTG",
 "language_mask":4,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.278,
 "program":1
 },
@@ -1631,6 +1710,7 @@
 "EC_id":"GESTION_RESS_HUMAINES_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.289,
 "program":1
 },
@@ -1645,6 +1725,7 @@
 "EC_id":"MICROECONOMIE",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.3,
 "program":1
 }
@@ -1669,6 +1750,7 @@
 "EC_id":"INVESTISS_FINANCES_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.317,
 "program":1
 },
@@ -1683,6 +1765,7 @@
 "EC_id":"COMPTES_ANNUELS",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.333,
 "program":1
 }
@@ -1727,6 +1810,7 @@
 "EC_id":"LANGUES_3",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.35,
 "program":1
 },
@@ -1741,6 +1825,7 @@
 "EC_id":"ANGLAIS_3",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.367,
 "program":1
 }
@@ -1765,6 +1850,7 @@
 "EC_id":"MANAG_INTCULT_CIV_3_GEST",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.383,
 "program":1
 },
@@ -1779,6 +1865,7 @@
 "EC_id":"BASES_GESTION_PROJET_1",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.4,
 "program":1
 }
@@ -1803,6 +1890,7 @@
 "EC_id":"INFORMATIQUE_ECONOMIE_LOG",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.411,
 "program":1
 },
@@ -1817,6 +1905,7 @@
 "EC_id":"PROGI_GESTION_INT_SAP_LOG",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.422,
 "program":1
 },
@@ -1831,6 +1920,7 @@
 "EC_id":"RECHERCHE_OPERATIONNELLE",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.433,
 "program":1
 }
@@ -1855,6 +1945,7 @@
 "EC_id":"ROUL_FLUX_MAT_INTERNES",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.45,
 "program":1
 },
@@ -1869,6 +1960,7 @@
 "EC_id":"GEST_STOCKS_UTILISAT",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.467,
 "program":1
 }
@@ -1893,6 +1985,7 @@
 "EC_id":"COMPTA_ANALYTIQUE_LOG",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.478,
 "program":1
 },
@@ -1907,6 +2000,7 @@
 "EC_id":"BILAN_FINANCIER",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.489,
 "program":1
 },
@@ -1921,6 +2015,7 @@
 "EC_id":"DROIT_LOG",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.5,
 "program":1
 }
@@ -1955,6 +2050,7 @@
 "EC_id":"LANGUES_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.517,
 "program":1
 },
@@ -1969,6 +2065,7 @@
 "EC_id":"ANGLAIS_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.533,
 "program":1
 }
@@ -1993,6 +2090,7 @@
 "EC_id":"MANAG_INTCULT_CIV_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.55,
 "program":1
 },
@@ -2007,6 +2105,7 @@
 "EC_id":"PROJET_LOG",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.567,
 "program":1
 }
@@ -2031,6 +2130,7 @@
 "EC_id":"MARCHES_SERVICES_LOGIST",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.578,
 "program":1
 },
@@ -2045,6 +2145,7 @@
 "EC_id":"ORGANISAT_LOGIST_CONTROLE",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.589,
 "program":1
 },
@@ -2059,6 +2160,7 @@
 "EC_id":"DROIT_POUR_LA_LOGISTIQUE",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.6,
 "program":1
 }
@@ -2083,6 +2185,7 @@
 "EC_id":"MODULE_OPTIONNEL_LOG",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.633,
 "program":1
 }
@@ -2107,6 +2210,7 @@
 "EC_id":"SEMINAIRE_DE_LOGISTIQUE",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.667,
 "program":1
 }
@@ -2151,6 +2255,7 @@
 "EC_id":"LANGUES_5",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.681,
 "program":1
 },
@@ -2165,6 +2270,7 @@
 "EC_id":"ANGLAIS_5",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.694,
 "program":1
 }
@@ -2189,6 +2295,7 @@
 "EC_id":"GESTION_DE_PROJET_3_SG",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.722,
 "program":1
 }
@@ -2213,6 +2320,7 @@
 "EC_id":"MANAGEMENT_INTERNATIONAL",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.736,
 "program":1
 },
@@ -2227,6 +2335,7 @@
 "EC_id":"MANAGEMENT_EQUIPE_PROJET",
 "language_mask":2,
 "sharing_mask":6,
+"program_type_mask":1,
 "ratio":0.75,
 "program":1
 }
@@ -2251,6 +2360,7 @@
 "EC_id":"COMMERCE_INTERNATIONAL",
 "language_mask":2,
 "sharing_mask":6,
+"program_type_mask":1,
 "ratio":0.759,
 "program":1
 },
@@ -2265,6 +2375,7 @@
 "EC_id":"ACHATS_APPROVISIONNEMENT",
 "language_mask":4,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.769,
 "program":1
 },
@@ -2279,6 +2390,7 @@
 "EC_id":"NOUV_FORMES_ORGANISATION",
 "language_mask":2,
 "sharing_mask":6,
+"program_type_mask":1,
 "ratio":0.778,
 "program":1
 }
@@ -2303,20 +2415,22 @@
 "EC_id":"GESTION_DE_LA_QUALITE",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.787,
 "program":1
 },
 {
-"name":"Audit et performances",
+"name":"Audit des performances logistiques",
 "nature":"module",
 "hours":30,
 "volumes":"15 h CM + 15 h TD",
 "ECTS":3,
 "category":7,
-"anchor":"blob/master/output/Log/web.md#ec-audit-et-performances",
-"EC_id":"AUDIT_ET_PERFORMANCES",
+"anchor":"blob/master/output/Log/web.md#ec-audit-performances-logist",
+"EC_id":"AUDIT_PERFORMANCES_LOGIST",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.796,
 "program":1
 },
@@ -2331,6 +2445,7 @@
 "EC_id":"ETUDES_DE_CAS_LOGISTIQUES",
 "language_mask":4,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.806,
 "program":1
 }
@@ -2355,6 +2470,7 @@
 "EC_id":"SIMULATION_DE_GESTION",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.819,
 "program":1
 },
@@ -2369,6 +2485,7 @@
 "EC_id":"VBA_OUT_BUREAUT_AVANCES",
 "language_mask":2,
 "sharing_mask":6,
+"program_type_mask":1,
 "ratio":0.833,
 "program":1
 }
@@ -2403,6 +2520,7 @@
 "EC_id":"STAGE_GESTION",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.875,
 "program":1
 },
@@ -2417,6 +2535,7 @@
 "EC_id":"RAPPORT_STAGE_EXP_INTCULT",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.917,
 "program":1
 }
@@ -2441,6 +2560,7 @@
 "EC_id":"MEMOIRE_LICENCE_GESTION",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.958,
 "program":1
 },
@@ -2455,6 +2575,7 @@
 "EC_id":"SEMINAIRE_LICENCE_GESTION",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":1.0,
 "program":1
 }
@@ -2508,6 +2629,7 @@
 "EC_id":"LANGUES_1",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.017,
 "program":2
 },
@@ -2522,6 +2644,7 @@
 "EC_id":"MANAG_INTCULT_CIV_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.033,
 "program":2
 }
@@ -2546,6 +2669,7 @@
 "EC_id":"ANGLAIS_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.067,
 "program":2
 }
@@ -2570,6 +2694,7 @@
 "EC_id":"MATHEMATIQUES_DE_GESTION",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.083,
 "program":2
 },
@@ -2584,6 +2709,7 @@
 "EC_id":"INFO_GESTION_TECHNO_WEB",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.1,
 "program":2
 }
@@ -2608,6 +2734,7 @@
 "EC_id":"INTRODUCTION_AU_TOURISME",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.111,
 "program":2
 },
@@ -2622,6 +2749,7 @@
 "EC_id":"CONNAISSANCE_ENTREPRISES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.122,
 "program":2
 },
@@ -2636,6 +2764,7 @@
 "EC_id":"DROIT_DES_AFFAIRES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.133,
 "program":2
 }
@@ -2660,6 +2789,7 @@
 "EC_id":"COMPTABILITE_GENERALE",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.15,
 "program":2
 },
@@ -2674,6 +2804,7 @@
 "EC_id":"FISCALITE_ENTREPR_FRANCE",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.167,
 "program":2
 }
@@ -2708,6 +2839,7 @@
 "EC_id":"LANGUES_2",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.183,
 "program":2
 },
@@ -2722,6 +2854,7 @@
 "EC_id":"MANAG_INTCULT_CIV_2",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.2,
 "program":2
 }
@@ -2746,6 +2879,7 @@
 "EC_id":"ANGLAIS_2",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.233,
 "program":2
 }
@@ -2770,6 +2904,7 @@
 "EC_id":"PROBABILITES_STATISTIQUES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.244,
 "program":2
 },
@@ -2784,6 +2919,7 @@
 "EC_id":"MATHEMATIQUES_FINANCIERES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.256,
 "program":2
 },
@@ -2798,6 +2934,7 @@
 "EC_id":"BD_RELATIONNELLES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.267,
 "program":2
 }
@@ -2822,6 +2959,7 @@
 "EC_id":"MKTG_1_FONDEMENTS_MKTG",
 "language_mask":4,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.278,
 "program":2
 },
@@ -2836,6 +2974,7 @@
 "EC_id":"GESTION_RESS_HUMAINES_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.289,
 "program":2
 },
@@ -2850,6 +2989,7 @@
 "EC_id":"MICROECONOMIE",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.3,
 "program":2
 }
@@ -2874,6 +3014,7 @@
 "EC_id":"INVESTISS_FINANCES_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.317,
 "program":2
 },
@@ -2888,6 +3029,7 @@
 "EC_id":"MKTG_TOUR_ANALYSE_MARCHE",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.333,
 "program":2
 }
@@ -2932,6 +3074,7 @@
 "EC_id":"LANGUES_3",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.35,
 "program":2
 },
@@ -2946,6 +3089,7 @@
 "EC_id":"ANGLAIS_3",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.367,
 "program":2
 }
@@ -2970,6 +3114,7 @@
 "EC_id":"CONF_SEMIN_GESTION_TOUR",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.4,
 "program":2
 }
@@ -2994,6 +3139,7 @@
 "EC_id":"COMPTA_ANALYTIQUE_MTI",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.417,
 "program":2
 },
@@ -3008,6 +3154,7 @@
 "EC_id":"COMPTABILITE_EXTERNE_MTI",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.433,
 "program":2
 }
@@ -3032,6 +3179,7 @@
 "EC_id":"TRAIT_DONNEES_PROC_OPER",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.467,
 "program":2
 }
@@ -3056,6 +3204,7 @@
 "EC_id":"MANAG_INTCULT_CIV_3_GEST",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.5,
 "program":2
 }
@@ -3090,6 +3239,7 @@
 "EC_id":"LANGUES_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.521,
 "program":2
 },
@@ -3104,6 +3254,7 @@
 "EC_id":"ANGLAIS_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.542,
 "program":2
 }
@@ -3128,6 +3279,7 @@
 "EC_id":"MANAG_INTCULT_CIV_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.583,
 "program":2
 }
@@ -3152,6 +3304,7 @@
 "EC_id":"RESSOURCES_HUMAINES",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.597,
 "program":2
 },
@@ -3166,6 +3319,7 @@
 "EC_id":"GEST_AFFAIRES_FISC_INTNAT",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.611,
 "program":2
 },
@@ -3180,6 +3334,7 @@
 "EC_id":"DROIT_INTNAT_CONTRAT_TOUR",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.625,
 "program":2
 }
@@ -3204,6 +3359,7 @@
 "EC_id":"MODULE_OPTIONNEL_1_MTI",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.646,
 "program":2
 },
@@ -3218,6 +3374,7 @@
 "EC_id":"MODULE_OPTIONNEL_2_MTI",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.667,
 "program":2
 }
@@ -3262,6 +3419,7 @@
 "EC_id":"LANGUES_5_MTI",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.683,
 "program":2
 },
@@ -3276,6 +3434,7 @@
 "EC_id":"ANGLAIS_5_MTI",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.7,
 "program":2
 }
@@ -3300,6 +3459,7 @@
 "EC_id":"GEO_CULT_TOURISTIQUE_ECON",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.733,
 "program":2
 }
@@ -3324,6 +3484,7 @@
 "EC_id":"ECON_POLIT_TOUR_DURABLE",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.767,
 "program":2
 }
@@ -3348,6 +3509,7 @@
 "EC_id":"INFO_COMMUNIC_SYST_RESERV",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.8,
 "program":2
 }
@@ -3372,6 +3534,7 @@
 "EC_id":"MODULE_OPTIONNEL_3_MTI",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.817,
 "program":2
 },
@@ -3386,6 +3549,7 @@
 "EC_id":"MODULE_OPTIONNEL_4_MTI",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":1,
 "ratio":0.833,
 "program":2
 }
@@ -3420,6 +3584,7 @@
 "EC_id":"STAGE_GESTION",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.875,
 "program":2
 },
@@ -3434,6 +3599,7 @@
 "EC_id":"RAPPORT_STAGE_EXP_INTCULT",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.917,
 "program":2
 }
@@ -3458,6 +3624,7 @@
 "EC_id":"MEMOIRE_LICENCE_GESTION",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":0.958,
 "program":2
 },
@@ -3472,6 +3639,7 @@
 "EC_id":"SEMINAIRE_LICENCE_GESTION",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":1,
 "ratio":1.0,
 "program":2
 }
@@ -3525,6 +3693,7 @@
 "EC_id":"LANGUES_1",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.017,
 "program":3
 },
@@ -3539,6 +3708,7 @@
 "EC_id":"MANAG_INTCULT_CIV_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.033,
 "program":3
 }
@@ -3563,6 +3733,7 @@
 "EC_id":"ANGLAIS_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.067,
 "program":3
 }
@@ -3587,6 +3758,7 @@
 "EC_id":"ALGO_STRUCTURES_CONTROLE",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.083,
 "program":3
 },
@@ -3601,6 +3773,7 @@
 "EC_id":"ALGEBRE_1",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.1,
 "program":3
 }
@@ -3625,6 +3798,7 @@
 "EC_id":"ALGO_STRUCTURES_DONNEES",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.117,
 "program":3
 },
@@ -3639,6 +3813,7 @@
 "EC_id":"INTERFACE_LIGNE_COMMANDE",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.133,
 "program":3
 }
@@ -3663,6 +3838,7 @@
 "EC_id":"DEVELOPPEMENT_SITES_WEB",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.144,
 "program":3
 },
@@ -3677,6 +3853,7 @@
 "EC_id":"DESIGN_CREATION_GRAPHIQUE",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.156,
 "program":3
 },
@@ -3691,6 +3868,7 @@
 "EC_id":"CONNAISSANCE_D_INTERNET",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.167,
 "program":3
 }
@@ -3725,6 +3903,7 @@
 "EC_id":"LANGUES_2",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.181,
 "program":3
 },
@@ -3739,6 +3918,7 @@
 "EC_id":"MANAG_INTCULT_CIV_2",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.194,
 "program":3
 }
@@ -3763,6 +3943,7 @@
 "EC_id":"ANGLAIS_2",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.222,
 "program":3
 }
@@ -3787,6 +3968,7 @@
 "EC_id":"INTRO_SYSTEMES_NUMERIQUES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.236,
 "program":3
 },
@@ -3801,6 +3983,7 @@
 "EC_id":"PROBABILITES_STATISTIQUES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.25,
 "program":3
 }
@@ -3825,6 +4008,7 @@
 "EC_id":"BD_RELATIONNELLES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.264,
 "program":3
 },
@@ -3839,6 +4023,7 @@
 "EC_id":"ALGEBRE_2",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.278,
 "program":3
 }
@@ -3863,6 +4048,7 @@
 "EC_id":"PROGRAMMATION_IMPERATIVE",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.287,
 "program":3
 },
@@ -3877,6 +4063,7 @@
 "EC_id":"ALGORITHMIQUE_DES_GRAPHES",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.296,
 "program":3
 },
@@ -3891,6 +4078,7 @@
 "EC_id":"MODELISATION_CLE_VALEUR",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.306,
 "program":3
 }
@@ -3915,6 +4103,7 @@
 "EC_id":"SYSTEMES_GESTION_CONTENU",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.319,
 "program":3
 },
@@ -3929,6 +4118,7 @@
 "EC_id":"OUTILS_DEV_SITES_WEB",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.333,
 "program":3
 }
@@ -3973,6 +4163,7 @@
 "EC_id":"LANGUES_3",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.352,
 "program":3
 },
@@ -3987,6 +4178,7 @@
 "EC_id":"ANGLAIS_3",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.37,
 "program":3
 },
@@ -4001,6 +4193,7 @@
 "EC_id":"MANAG_INTCULT_CIV_3",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.389,
 "program":3
 }
@@ -4025,6 +4218,7 @@
 "EC_id":"PROGRAMMATION_1",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.407,
 "program":3
 },
@@ -4039,6 +4233,7 @@
 "EC_id":"DEV_LOGICIEL_JAVASCRIPT",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.426,
 "program":3
 },
@@ -4053,6 +4248,7 @@
 "EC_id":"BASES_DE_DONNEES_2",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.444,
 "program":3
 }
@@ -4077,6 +4273,7 @@
 "EC_id":"MODULE_OPTIONNEL_1_INFO",
 "language_mask":3,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.5,
 "program":3
 }
@@ -4111,6 +4308,7 @@
 "EC_id":"LANGUES_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.519,
 "program":3
 },
@@ -4125,6 +4323,7 @@
 "EC_id":"ANGLAIS_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.537,
 "program":3
 },
@@ -4139,6 +4338,7 @@
 "EC_id":"MANAG_INTCULT_CIV_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.556,
 "program":3
 }
@@ -4163,6 +4363,7 @@
 "EC_id":"PROGRAMMATION_2",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.574,
 "program":3
 },
@@ -4177,6 +4378,7 @@
 "EC_id":"SYSTEMES_D_EXPLOITATION",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.593,
 "program":3
 },
@@ -4191,6 +4393,7 @@
 "EC_id":"RESEAUX_INFORMATIQUES",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.611,
 "program":3
 }
@@ -4215,6 +4418,7 @@
 "EC_id":"MODULE_OPTIONNEL_2_INFO",
 "language_mask":3,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.667,
 "program":3
 }
@@ -4259,6 +4463,7 @@
 "EC_id":"LANGUES_5",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.683,
 "program":3
 },
@@ -4273,6 +4478,7 @@
 "EC_id":"ANGLAIS_5",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.7,
 "program":3
 }
@@ -4297,6 +4503,7 @@
 "EC_id":"ERGONOMIE_INTERFACES_WEB",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.711,
 "program":3
 },
@@ -4311,6 +4518,7 @@
 "EC_id":"FRAMEWORKS_API_DEV_WEB",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.722,
 "program":3
 },
@@ -4325,6 +4533,7 @@
 "EC_id":"DEVELOPPEMENT_WEB_MOBILE",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.733,
 "program":3
 }
@@ -4349,6 +4558,7 @@
 "EC_id":"CONCEPT_MANIPULAT_BD",
 "language_mask":2,
 "sharing_mask":4,
+"program_type_mask":2,
 "ratio":0.75,
 "program":3
 },
@@ -4363,6 +4573,7 @@
 "EC_id":"PROGRAMMATION_WEB",
 "language_mask":2,
 "sharing_mask":4,
+"program_type_mask":2,
 "ratio":0.767,
 "program":3
 }
@@ -4387,6 +4598,7 @@
 "EC_id":"PERFECTIONNEMENT_EN_JAVA",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.783,
 "program":3
 },
@@ -4401,6 +4613,7 @@
 "EC_id":"OUTILS_METHODES_DEV",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.8,
 "program":3
 }
@@ -4425,6 +4638,7 @@
 "EC_id":"GESTION_PROJET_INGENIEUR",
 "language_mask":4,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.833,
 "program":3
 }
@@ -4459,6 +4673,7 @@
 "EC_id":"STAGE_INFO",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.917,
 "program":3
 }
@@ -4483,6 +4698,7 @@
 "EC_id":"MEMOIRE_DE_LICENCE_INFO",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.958,
 "program":3
 },
@@ -4497,6 +4713,7 @@
 "EC_id":"SEMINAIRE_DE_LICENCE_INFO",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":1.0,
 "program":3
 }
@@ -4550,6 +4767,7 @@
 "EC_id":"LANGUES_1",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.014,
 "program":4
 },
@@ -4564,6 +4782,7 @@
 "EC_id":"MANAG_INTCULT_CIV_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.028,
 "program":4
 }
@@ -4588,6 +4807,7 @@
 "EC_id":"ANGLAIS_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.056,
 "program":4
 }
@@ -4612,6 +4832,7 @@
 "EC_id":"ALGEBRE_1",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.065,
 "program":4
 },
@@ -4626,6 +4847,7 @@
 "EC_id":"ANALYSE_1",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.074,
 "program":4
 },
@@ -4640,6 +4862,7 @@
 "EC_id":"DECOUV_INGEN_ELECTR_ENERG",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.083,
 "program":4
 }
@@ -4664,6 +4887,7 @@
 "EC_id":"PROGRAMMATION_VBA_EXCEL",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.093,
 "program":4
 },
@@ -4678,6 +4902,7 @@
 "EC_id":"PROGRAMMATION_VBA_AVANCEE",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.102,
 "program":4
 },
@@ -4692,6 +4917,7 @@
 "EC_id":"INTERFACE_LIGNE_COMMANDE",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.111,
 "program":4
 }
@@ -4716,6 +4942,7 @@
 "EC_id":"CIRCUITS_ELECTRIQUES",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.125,
 "program":4
 },
@@ -4730,6 +4957,7 @@
 "EC_id":"PRATIQUE_CIRCUITS_ELECTR",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.139,
 "program":4
 }
@@ -4754,6 +4982,7 @@
 "EC_id":"ELECTROSTAT_MAGNETOSTAT",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.153,
 "program":4
 },
@@ -4768,6 +4997,7 @@
 "EC_id":"INFORMATIQUE_INDUSTRIELLE",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.167,
 "program":4
 }
@@ -4802,6 +5032,7 @@
 "EC_id":"LANGUES_2",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.181,
 "program":4
 },
@@ -4816,6 +5047,7 @@
 "EC_id":"MANAG_INTCULT_CIV_2",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.194,
 "program":4
 }
@@ -4840,6 +5072,7 @@
 "EC_id":"ANGLAIS_2",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.222,
 "program":4
 }
@@ -4864,6 +5097,7 @@
 "EC_id":"ANALYSE_2",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.231,
 "program":4
 },
@@ -4878,6 +5112,7 @@
 "EC_id":"ALGEBRE_2",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.241,
 "program":4
 },
@@ -4892,6 +5127,7 @@
 "EC_id":"MESURE_INSTRUM_CAPTEURS",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.25,
 "program":4
 }
@@ -4916,6 +5152,7 @@
 "EC_id":"PROGRAMMATION_EN_C",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.264,
 "program":4
 },
@@ -4930,6 +5167,7 @@
 "EC_id":"INTRO_SYSTEMES_NUMERIQUES",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.278,
 "program":4
 }
@@ -4954,6 +5192,7 @@
 "EC_id":"VIBRAT_CIRCUITS_ELECTR",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.292,
 "program":4
 },
@@ -4968,6 +5207,7 @@
 "EC_id":"BASES_DE_L_ELECTRONIQUE",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.306,
 "program":4
 }
@@ -4992,6 +5232,7 @@
 "EC_id":"OPT_GEOMETR_THERMO",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.333,
 "program":4
 }
@@ -5036,6 +5277,7 @@
 "EC_id":"LANGUES_3",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.347,
 "program":4
 },
@@ -5050,6 +5292,7 @@
 "EC_id":"ANGLAIS_3",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.361,
 "program":4
 },
@@ -5064,6 +5307,7 @@
 "EC_id":"MANAG_INTCULT_CIV_3",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.375,
 "program":4
 }
@@ -5088,6 +5332,7 @@
 "EC_id":"MATHS_APPLIQUEES_ISICE",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.396,
 "program":4
 },
@@ -5102,6 +5347,7 @@
 "EC_id":"STATISTIQUES_1",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.417,
 "program":4
 }
@@ -5126,6 +5372,7 @@
 "EC_id":"PROGR_SYST_MICROCONTROL",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.431,
 "program":4
 },
@@ -5140,6 +5387,7 @@
 "EC_id":"BASES_TECHNO_TRANSMISSION",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.444,
 "program":4
 },
@@ -5154,6 +5402,7 @@
 "EC_id":"MICROCONTROLEUR_APPLIC_1",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.458,
 "program":4
 }
@@ -5178,6 +5427,7 @@
 "EC_id":"ELECTRONIQUE_1",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.479,
 "program":4
 },
@@ -5192,6 +5442,7 @@
 "EC_id":"ENERGIES_RENOUVELABLES",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.5,
 "program":4
 }
@@ -5226,6 +5477,7 @@
 "EC_id":"LANGUES_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.514,
 "program":4
 },
@@ -5240,6 +5492,7 @@
 "EC_id":"ANGLAIS_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.528,
 "program":4
 },
@@ -5254,6 +5507,7 @@
 "EC_id":"MANAG_INTCULT_CIV_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.542,
 "program":4
 }
@@ -5278,6 +5532,7 @@
 "EC_id":"STATISTIQUES_2",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.562,
 "program":4
 },
@@ -5292,6 +5547,7 @@
 "EC_id":"THEOR_SYST_CONTROLE_AUTOM",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.583,
 "program":4
 }
@@ -5316,6 +5572,7 @@
 "EC_id":"PROGRAMMATION_EN_CPP",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.604,
 "program":4
 },
@@ -5330,6 +5587,7 @@
 "EC_id":"MICROCONTROLEUR_APPLIC_2",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.625,
 "program":4
 }
@@ -5354,6 +5612,7 @@
 "EC_id":"ELECTRONIQUE_2",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.646,
 "program":4
 },
@@ -5368,6 +5627,7 @@
 "EC_id":"TECHNIQUES_DE_MESURES",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.667,
 "program":4
 }
@@ -5412,6 +5672,7 @@
 "EC_id":"LANGUES_5",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.683,
 "program":4
 },
@@ -5426,6 +5687,7 @@
 "EC_id":"ANGLAIS_5",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.7,
 "program":4
 }
@@ -5450,6 +5712,7 @@
 "EC_id":"PROGR_APPAREILS_MOBILES",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.711,
 "program":4
 },
@@ -5464,6 +5727,7 @@
 "EC_id":"PROGRAMMATION_LABVIEW",
 "language_mask":2,
 "sharing_mask":4,
+"program_type_mask":2,
 "ratio":0.722,
 "program":4
 },
@@ -5478,6 +5742,7 @@
 "EC_id":"TP_INSTRUM_VIRTUELLE",
 "language_mask":2,
 "sharing_mask":4,
+"program_type_mask":2,
 "ratio":0.733,
 "program":4
 }
@@ -5502,6 +5767,7 @@
 "EC_id":"AUTOMATIQUE",
 "language_mask":2,
 "sharing_mask":4,
+"program_type_mask":2,
 "ratio":0.742,
 "program":4
 },
@@ -5516,6 +5782,7 @@
 "EC_id":"ETUDE_DE_CAS_ISICE",
 "language_mask":2,
 "sharing_mask":4,
+"program_type_mask":2,
 "ratio":0.75,
 "program":4
 },
@@ -5530,6 +5797,7 @@
 "EC_id":"FILTRAGE_NUMERIQUE",
 "language_mask":2,
 "sharing_mask":4,
+"program_type_mask":2,
 "ratio":0.758,
 "program":4
 },
@@ -5544,6 +5812,7 @@
 "EC_id":"COMMANDE_SYST_NUMERIQUES",
 "language_mask":2,
 "sharing_mask":4,
+"program_type_mask":2,
 "ratio":0.767,
 "program":4
 }
@@ -5568,6 +5837,7 @@
 "EC_id":"ENERGIES_NOUVELLES",
 "language_mask":2,
 "sharing_mask":6,
+"program_type_mask":2,
 "ratio":0.8,
 "program":4
 }
@@ -5592,6 +5862,7 @@
 "EC_id":"GESTION_PROJET_INGENIEUR",
 "language_mask":4,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.833,
 "program":4
 }
@@ -5626,6 +5897,7 @@
 "EC_id":"LANGUES_6",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.847,
 "program":4
 },
@@ -5640,6 +5912,7 @@
 "EC_id":"ANGLAIS_6",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.861,
 "program":4
 },
@@ -5654,6 +5927,7 @@
 "EC_id":"MANAG_INTCULT_CIV_6",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.875,
 "program":4
 }
@@ -5678,6 +5952,7 @@
 "EC_id":"BASES_SYST_ALIMENTATION",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.896,
 "program":4
 },
@@ -5692,6 +5967,7 @@
 "EC_id":"TECHNIQUE_AUTOMOBILE",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.917,
 "program":4
 }
@@ -5716,6 +5992,7 @@
 "EC_id":"CONTROLE_INDUSTRIEL",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.938,
 "program":4
 },
@@ -5730,6 +6007,7 @@
 "EC_id":"LABO_INGEN_AUTOMATISATION",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.958,
 "program":4
 }
@@ -5754,6 +6032,7 @@
 "EC_id":"MEMOIRE_DE_LICENCE_ISICE",
 "language_mask":3,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":1.0,
 "program":4
 }
@@ -5807,6 +6086,7 @@
 "EC_id":"LANGUES_1",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.014,
 "program":5
 },
@@ -5821,6 +6101,7 @@
 "EC_id":"MANAG_INTCULT_CIV_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.028,
 "program":5
 }
@@ -5845,6 +6126,7 @@
 "EC_id":"ANGLAIS_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.056,
 "program":5
 }
@@ -5869,6 +6151,7 @@
 "EC_id":"ALGEBRE_1",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.065,
 "program":5
 },
@@ -5883,6 +6166,7 @@
 "EC_id":"ANALYSE_1",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.074,
 "program":5
 },
@@ -5897,6 +6181,7 @@
 "EC_id":"PROGRAMMATION_VBA_EXCEL",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.083,
 "program":5
 }
@@ -5921,6 +6206,7 @@
 "EC_id":"STATIQUE",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.097,
 "program":5
 },
@@ -5935,6 +6221,7 @@
 "EC_id":"RESISTANCE_MATERIAUX_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.111,
 "program":5
 }
@@ -5959,6 +6246,7 @@
 "EC_id":"DECOUV_INGEN_ELECTR_ENERG",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.125,
 "program":5
 },
@@ -5973,6 +6261,7 @@
 "EC_id":"BASES_DE_LA_MECANIQUE_1",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.139,
 "program":5
 }
@@ -5997,6 +6286,7 @@
 "EC_id":"TECHNO_SYSTEMES_MECA",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.153,
 "program":5
 },
@@ -6011,6 +6301,7 @@
 "EC_id":"DECOUVERTE_DES_PROCEDES",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.167,
 "program":5
 }
@@ -6045,6 +6336,7 @@
 "EC_id":"LANGUES_2",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.181,
 "program":5
 },
@@ -6059,6 +6351,7 @@
 "EC_id":"MANAG_INTCULT_CIV_2",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.194,
 "program":5
 }
@@ -6083,6 +6376,7 @@
 "EC_id":"ANGLAIS_2",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.222,
 "program":5
 }
@@ -6107,6 +6401,7 @@
 "EC_id":"ANALYSE_2",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.231,
 "program":5
 },
@@ -6121,6 +6416,7 @@
 "EC_id":"ALGEBRE_2",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.241,
 "program":5
 },
@@ -6135,6 +6431,7 @@
 "EC_id":"PROGRAMMATION_EN_C",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.25,
 "program":5
 }
@@ -6159,6 +6456,7 @@
 "EC_id":"VIBRAT_CIRCUITS_ELECTR",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.264,
 "program":5
 },
@@ -6173,6 +6471,7 @@
 "EC_id":"RESISTANCE_MATERIAUX_2",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.278,
 "program":5
 }
@@ -6197,6 +6496,7 @@
 "EC_id":"BUREAU_D_ETUDES_ET_DAO",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.292,
 "program":5
 },
@@ -6211,6 +6511,7 @@
 "EC_id":"BASES_DE_LA_MECANIQUE_2",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.306,
 "program":5
 }
@@ -6235,6 +6536,7 @@
 "EC_id":"ETUDE_DE_SYNTHESE_GM",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.333,
 "program":5
 }
@@ -6279,6 +6581,7 @@
 "EC_id":"LANGUES_3",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.344,
 "program":5
 },
@@ -6293,6 +6596,7 @@
 "EC_id":"ANGLAIS_3",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.356,
 "program":5
 },
@@ -6307,6 +6611,7 @@
 "EC_id":"MANAG_INTCULT_CIV_3",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.367,
 "program":5
 }
@@ -6331,6 +6636,7 @@
 "EC_id":"MATHS_APPLIQUEES_GM",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.4,
 "program":5
 }
@@ -6355,6 +6661,7 @@
 "EC_id":"TECHNOLOGIE_DES_MATERIAUX",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.417,
 "program":5
 },
@@ -6369,6 +6676,7 @@
 "EC_id":"INTRO_TECHNIQUES_FONDERIE",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.433,
 "program":5
 }
@@ -6393,6 +6701,7 @@
 "EC_id":"MODULE_OPTIONNEL_GM",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.467,
 "program":5
 }
@@ -6417,6 +6726,7 @@
 "EC_id":"INTRO_TECH_CONSTRUCTION",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.483,
 "program":5
 },
@@ -6431,6 +6741,7 @@
 "EC_id":"TECHNOLOGIE_CAO",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.5,
 "program":5
 }
@@ -6465,6 +6776,7 @@
 "EC_id":"LANGUES_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.511,
 "program":5
 },
@@ -6479,6 +6791,7 @@
 "EC_id":"ANGLAIS_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.522,
 "program":5
 },
@@ -6493,6 +6806,7 @@
 "EC_id":"MANAG_INTCULT_CIV_4",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.533,
 "program":5
 }
@@ -6517,6 +6831,7 @@
 "EC_id":"INGEN_MECANIQUE_AVANCEE",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.55,
 "program":5
 },
@@ -6531,6 +6846,7 @@
 "EC_id":"THERMODYNAMIQUE",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.567,
 "program":5
 }
@@ -6555,6 +6871,7 @@
 "EC_id":"ELEMENTS_PRODUITS_TECH",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.6,
 "program":5
 }
@@ -6579,6 +6896,7 @@
 "EC_id":"MECANIQUE_DES_FLUIDES_GM",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.617,
 "program":5
 },
@@ -6593,6 +6911,7 @@
 "EC_id":"BASES_PISTONS_TURBOMACH",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.633,
 "program":5
 }
@@ -6617,6 +6936,7 @@
 "EC_id":"PROJET_GM",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.667,
 "program":5
 }
@@ -6661,6 +6981,7 @@
 "EC_id":"LANGUES_5",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.683,
 "program":5
 },
@@ -6675,6 +6996,7 @@
 "EC_id":"ANGLAIS_5",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.7,
 "program":5
 }
@@ -6699,6 +7021,7 @@
 "EC_id":"GESTION_PROJET_INGENIEUR",
 "language_mask":4,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.733,
 "program":5
 }
@@ -6723,6 +7046,7 @@
 "EC_id":"MECA_MILIEUX_CONTINUS",
 "language_mask":2,
 "sharing_mask":4,
+"program_type_mask":2,
 "ratio":0.742,
 "program":5
 },
@@ -6737,6 +7061,7 @@
 "EC_id":"CALCUL_TENSORIEL",
 "language_mask":2,
 "sharing_mask":4,
+"program_type_mask":2,
 "ratio":0.75,
 "program":5
 },
@@ -6751,6 +7076,7 @@
 "EC_id":"OUTILS_SCIENTIFIQUES",
 "language_mask":2,
 "sharing_mask":4,
+"program_type_mask":2,
 "ratio":0.758,
 "program":5
 },
@@ -6765,6 +7091,7 @@
 "EC_id":"OUTILS_SCIENTIFIQUES_TP",
 "language_mask":2,
 "sharing_mask":4,
+"program_type_mask":2,
 "ratio":0.767,
 "program":5
 }
@@ -6789,6 +7116,7 @@
 "EC_id":"PROCEDES_INDUSTR",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.775,
 "program":5
 },
@@ -6803,6 +7131,7 @@
 "EC_id":"CONCEPTION_DES_MECANISMES",
 "language_mask":2,
 "sharing_mask":4,
+"program_type_mask":2,
 "ratio":0.783,
 "program":5
 },
@@ -6817,6 +7146,7 @@
 "EC_id":"DIMENSIONN_MECANISMES",
 "language_mask":2,
 "sharing_mask":4,
+"program_type_mask":2,
 "ratio":0.792,
 "program":5
 },
@@ -6831,6 +7161,7 @@
 "EC_id":"AUTOMATISMES_INDUSTRIELS",
 "language_mask":2,
 "sharing_mask":4,
+"program_type_mask":2,
 "ratio":0.8,
 "program":5
 }
@@ -6855,6 +7186,7 @@
 "EC_id":"APPLIC_SCIENCES_INGENIEUR",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.833,
 "program":5
 }
@@ -6889,6 +7221,7 @@
 "EC_id":"STAGE_GM",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.917,
 "program":5
 }
@@ -6913,6 +7246,7 @@
 "EC_id":"MEMOIRE_DE_LICENCE_GM",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.958,
 "program":5
 },
@@ -6927,6 +7261,7 @@
 "EC_id":"SEMINAIRE_DE_LICENCE_GM",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":1.0,
 "program":5
 }
@@ -6980,6 +7315,7 @@
 "EC_id":"LANGUES_1",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.014,
 "program":6
 },
@@ -6994,6 +7330,7 @@
 "EC_id":"MANAG_INTCULT_CIV_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.028,
 "program":6
 }
@@ -7018,6 +7355,7 @@
 "EC_id":"ANGLAIS_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.056,
 "program":6
 }
@@ -7042,6 +7380,7 @@
 "EC_id":"ALGEBRE_1",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.065,
 "program":6
 },
@@ -7056,6 +7395,7 @@
 "EC_id":"ANALYSE_1",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.074,
 "program":6
 },
@@ -7070,6 +7410,7 @@
 "EC_id":"PROGRAMMATION_VBA_EXCEL",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.083,
 "program":6
 }
@@ -7094,6 +7435,7 @@
 "EC_id":"STATIQUE",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.097,
 "program":6
 },
@@ -7108,6 +7450,7 @@
 "EC_id":"RESISTANCE_MATERIAUX_1",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.111,
 "program":6
 }
@@ -7132,6 +7475,7 @@
 "EC_id":"MATERIAUX_CONSTRUCTION_1",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.139,
 "program":6
 }
@@ -7156,6 +7500,7 @@
 "EC_id":"ORGANISATION_CHANTIER_1",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.148,
 "program":6
 },
@@ -7170,6 +7515,7 @@
 "EC_id":"TOPOGRAPHIE",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.157,
 "program":6
 },
@@ -7184,6 +7530,7 @@
 "EC_id":"TECHNO_CONSTRUCTION_1",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.167,
 "program":6
 }
@@ -7218,6 +7565,7 @@
 "EC_id":"LANGUES_2",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.181,
 "program":6
 },
@@ -7232,6 +7580,7 @@
 "EC_id":"MANAG_INTCULT_CIV_2",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.194,
 "program":6
 }
@@ -7256,6 +7605,7 @@
 "EC_id":"ANGLAIS_2",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.222,
 "program":6
 }
@@ -7280,6 +7630,7 @@
 "EC_id":"ANALYSE_2",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.231,
 "program":6
 },
@@ -7294,6 +7645,7 @@
 "EC_id":"ALGEBRE_2",
 "language_mask":3,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.241,
 "program":6
 },
@@ -7308,6 +7660,7 @@
 "EC_id":"PROGRAMMATION_EN_C",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.25,
 "program":6
 }
@@ -7332,6 +7685,7 @@
 "EC_id":"RESISTANCE_MATERIAUX_2",
 "language_mask":2,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.278,
 "program":6
 }
@@ -7356,6 +7710,7 @@
 "EC_id":"BETON_ARME_1",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.287,
 "program":6
 },
@@ -7370,6 +7725,7 @@
 "EC_id":"CONSTRUCTION_METALLIQUE_1",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.296,
 "program":6
 },
@@ -7384,6 +7740,7 @@
 "EC_id":"MECANIQUE_DES_FLUIDES_1",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.306,
 "program":6
 }
@@ -7408,6 +7765,7 @@
 "EC_id":"DESSIN_BUREAU_D_ETUDES",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.319,
 "program":6
 },
@@ -7422,6 +7780,7 @@
 "EC_id":"DAO_ET_BIM",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.333,
 "program":6
 }
@@ -7466,6 +7825,7 @@
 "EC_id":"MATERIAUX_CONSTRUCTION_2",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.347,
 "program":6
 },
@@ -7480,6 +7840,7 @@
 "EC_id":"TECHNO_CONSTRUCTION_2",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.361,
 "program":6
 },
@@ -7494,6 +7855,7 @@
 "EC_id":"MECANIQUE_TECHNIQUE",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.375,
 "program":6
 },
@@ -7508,6 +7870,7 @@
 "EC_id":"MECANIQUE_DES_FLUIDES_2",
 "language_mask":4,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.389,
 "program":6
 }
@@ -7532,6 +7895,7 @@
 "EC_id":"BETON_ARME_2",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.403,
 "program":6
 },
@@ -7546,6 +7910,7 @@
 "EC_id":"CONSTRUCTION_METALLIQUE_2",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.417,
 "program":6
 },
@@ -7560,6 +7925,7 @@
 "EC_id":"MECANIQUE_DES_SOLS_1",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.431,
 "program":6
 },
@@ -7574,6 +7940,7 @@
 "EC_id":"RESISTANCE_MATERIAUX_3",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.444,
 "program":6
 }
@@ -7598,6 +7965,7 @@
 "EC_id":"ORGANISATION_CHANTIER_2",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.458,
 "program":6
 },
@@ -7612,6 +7980,7 @@
 "EC_id":"EQUIPEMENT_TECH_BATIMENT",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.472,
 "program":6
 },
@@ -7626,6 +7995,7 @@
 "EC_id":"ECONOMIE_CONSTRUCTION",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.486,
 "program":6
 },
@@ -7640,6 +8010,7 @@
 "EC_id":"PLANIFICAT_URBAINE_REG",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.5,
 "program":6
 }
@@ -7674,6 +8045,7 @@
 "EC_id":"TECHNO_CONSTRUCTION_3",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.514,
 "program":6
 },
@@ -7688,6 +8060,7 @@
 "EC_id":"MATERIAUX_CONSTRUCTION_3",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.528,
 "program":6
 },
@@ -7702,6 +8075,7 @@
 "EC_id":"ORGANISATION_CHANTIER_3",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.542,
 "program":6
 },
@@ -7716,6 +8090,7 @@
 "EC_id":"LEGISLATION",
 "language_mask":2,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.556,
 "program":6
 }
@@ -7740,6 +8115,7 @@
 "EC_id":"BETON_ARME_3",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.567,
 "program":6
 },
@@ -7754,6 +8130,7 @@
 "EC_id":"CONSTRUCTION_METALLIQUE_3",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.578,
 "program":6
 },
@@ -7768,6 +8145,7 @@
 "EC_id":"MECANIQUE_DES_SOLS_2",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.589,
 "program":6
 },
@@ -7782,6 +8160,7 @@
 "EC_id":"CONSTRUCTION_EN_BOIS",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.6,
 "program":6
 },
@@ -7796,6 +8175,7 @@
 "EC_id":"RESISTANCE_MATERIAUX_4",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.611,
 "program":6
 }
@@ -7820,6 +8200,7 @@
 "EC_id":"ECON_HYDRAUL_AGGLOMERAT",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.63,
 "program":6
 },
@@ -7834,6 +8215,7 @@
 "EC_id":"GENIE_HYDRAULIQUE",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.648,
 "program":6
 },
@@ -7848,6 +8230,7 @@
 "EC_id":"CONCEPT_INFRASTRUCT_ROUT",
 "language_mask":4,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.667,
 "program":6
 }
@@ -7892,6 +8275,7 @@
 "EC_id":"STAGE_GC",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.722,
 "program":6
 },
@@ -7906,6 +8290,7 @@
 "EC_id":"PROJET_GC",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.778,
 "program":6
 }
@@ -7940,6 +8325,7 @@
 "EC_id":"LANGUES_6",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.79,
 "program":6
 },
@@ -7954,6 +8340,7 @@
 "EC_id":"ANGLAIS_6",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.802,
 "program":6
 },
@@ -7968,6 +8355,7 @@
 "EC_id":"MANAG_INTCULT_CIV_6",
 "language_mask":1,
 "sharing_mask":2,
+"program_type_mask":2,
 "ratio":0.815,
 "program":6
 }
@@ -7992,6 +8380,7 @@
 "EC_id":"SEMIN_INDUSTR_CONSTRUCT",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.833,
 "program":6
 },
@@ -8006,6 +8395,7 @@
 "EC_id":"MODULE_OPTIONNEL_GC",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.852,
 "program":6
 }
@@ -8030,6 +8420,7 @@
 "EC_id":"GESTION_DE_PROJET_GC",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.861,
 "program":6
 },
@@ -8044,6 +8435,7 @@
 "EC_id":"ORGANISATION_CHANTIER_4",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.87,
 "program":6
 },
@@ -8058,6 +8450,7 @@
 "EC_id":"DROIT_CIVIL_ALLEMAND",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.88,
 "program":6
 },
@@ -8072,6 +8465,7 @@
 "EC_id":"TECHNIQUE_DE_COFFRAGE",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.889,
 "program":6
 }
@@ -8106,6 +8500,7 @@
 "EC_id":"LANGUES_7",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.901,
 "program":6
 },
@@ -8120,6 +8515,7 @@
 "EC_id":"ANGLAIS_7",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.914,
 "program":6
 },
@@ -8134,6 +8530,7 @@
 "EC_id":"MANAG_INTCULT_CIV_7",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.926,
 "program":6
 }
@@ -8158,6 +8555,7 @@
 "EC_id":"TECH_SECUR_SECUR_TRAVAIL",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.933,
 "program":6
 },
@@ -8172,6 +8570,7 @@
 "EC_id":"DROIT_CONTRATS_CONSTRUCT",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.941,
 "program":6
 },
@@ -8186,6 +8585,7 @@
 "EC_id":"FACILITY_MANAGEMENT",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.948,
 "program":6
 },
@@ -8200,6 +8600,7 @@
 "EC_id":"DROIT_PUBLIC_CONSTRUCTION",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.956,
 "program":6
 },
@@ -8214,6 +8615,7 @@
 "EC_id":"RELAT_PUBLIQUES_CONSTRUCT",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":0.963,
 "program":6
 }
@@ -8238,6 +8640,7 @@
 "EC_id":"MEMOIRE_DE_LICENCE_GC",
 "language_mask":1,
 "sharing_mask":1,
+"program_type_mask":2,
 "ratio":1.0,
 "program":6
 }
@@ -8302,7 +8705,7 @@
 "ANGLAIS_5_MTI":"<h6>Lernziele</h6>\n<ul>\n<li>Bereitstellung einer weitgehend englischen Lernatmosphäre</li>\n<li>Vermittlung der Fremdsprache in einem weitgehend fachbezogenen Ansatz</li>\n<li>Fähigkeit zur verstehenden Lektüre mittelschwerer Zeitungs- und Zeitschriftenartikel der englischen und amerikanischen Presse</li>\n<li>Fähigkeit zum Verständnis mittelschwerer fachsprachlich relevanter, mündlich vorgebrachter Texte</li>\n<li>Besondere Förderung der Diskussionsfähigkeit der Studierenden</li>\n</ul>\n<h6>Inhalt</h6>\n<ul>\n<li>Erarbeitung eines bereits spezialisierten tourismusbezogenen Vokabulars</li>\n<li>Vermittlung sehr fortgeschrittener funktionaler Grammatik mit Blick auf deren Nutzung in Textsorten des Tourismus-Managements</li>\n<li>Systemtische Lektüre einschlägiger Textsorten des Fachgebietes</li>\n<li>(Inter)kulturell relevante Themenbereiche des Fachgebietes in Orientierung an den Ländern der Zielsprache</li>\n<li>Authentische Zeitungs- und Zeitschriftenartikel mit fachsprachlicher und/oder (inter)kultureller Orientierung</li>\n<li>Berücksichtigung landeskundlicher Inhalte, einschließlich der Aktualität der Tagespolitik, zum Zwecke einer erweiterten Sensibilisierung der Studierenden für die Denkweisen der Zielländer</li>\n<li>Förderung der Schreibfertigkeit in fachsprachlicher Sicht.</li>\n</ul>\n<h6>Lehrmethoden/Medien</h6>\n<ul>\n<li>Gruppendiskussionen</li>\n<li>Partnerarbeit</li>\n<li>Phasen der Gruppenarbeit zur Umsetzung von Arbeitsaufträgen</li>\n<li>Multimediale, interaktive Sprachlaborarbeit</li>\n<li>Kurzvorträge der Studierenden</li>\n</ul>\n<h6>Literatur</h6>\n<ul>\n<li>Lehrmaterialien: vom Dozenten zusammengestellte Texte und Übungen</li>\n<li>Power-Point Präsentationen des Dozenten oder äquivalente Visualisierungsformen</li>\n<li>Didaktisierte, aber partiell auch authentische Zeitungs- und Zeitschriftenartikel mit fachsprachlicher und/oder (inter)kultureller Orientierung</li>\n<li>Internetressourcen</li>\n<li>Didaktisiertes Video- und Audiomaterial</li>\n</ul>\n<h6>Pré-requis</h6>\n<p>Anglais 4. </p>",
 "ANGLAIS_6":"<h6>Pré-requis</h6>\n<p>Anglais 2. </p>",
 "ANGLAIS_7":"<h6>Lernziele</h6>\n<ul>\n<li>Kenntnisse: Die Studierenden<ul>\n<li>erwerben Sprachkenntnisse im oberen Bereich des Niveaus B2 des GeR mit Ziel von dessen Absolvierung.</li>\n<li>kennen die relevante Grammatik, den allgemeinsprachlichen Grundwortschatz, den größten Teil des Aufbauwortschatzes des Englischen und eine fortgeschrittene Abdeckung der Wortfelder des Vokabulars des eigenen Fachgebietes.</li>\n</ul>\n</li>\n<li>Fertigkeiten: Die Studierenden sind in der Lage,<ul>\n<li>die Globalinformationen und Detailinformationen mittelschwerer bis schwerer Texte zu konkreten und abstrakten Themen zu verstehen.</li>\n<li>im eigenen Fachgebiet mittelschweren bis schweren Fachgesprächen zu folgen.</li>\n<li>sich mit bereits ausgebauten sprachlichen Mitteln so zu verständigen, dass sie Gespräche mit Muttersprachlern kommunikativ angemessen bestreiten können.</li>\n<li>sich schriftlich zu einem begrenzten Spektrum allgemeinsprachlicher und ausgewählter fachsprachlicher Themen weitestgehend verständlich und kommunikativ adäquat auszudrücken.</li>\n</ul>\n</li>\n<li>Kompetenzen: Die Studierenden verfügen über<ul>\n<li>eine recht tiefe Sensibilität hinsichtlich der interkulturellen Ausprägungen der anglo-amerikanischen Zielländer für die erfolgreiche Gestaltung von Kommunikationssituationen des täglichen (Berufs-)Lebens.</li>\n<li>die Kompetenz, sich auf die interkulturellen Unterschiede der anglo-amerikanischen Zielländer einzulassen und dort erfolgreich und nahezu ohne Kommunikationsprobleme zu interagieren.</li>\n</ul>\n</li>\n</ul>\n<h6>Inhalt</h6>\n<ul>\n<li>Abschluss der Erarbeitung eines umfangreichen allgemeinsprachlichen Aufbauwortschatzes des Englischen,</li>\n<li>fortgeschrittener Erwerb eines Wortschatzes mittleren Umfangs im ingenieurwissenschaftlich-technischen Bereich,</li>\n<li>vertiefte Vermittlung fachsprachlich relevanter Kapitel der fortgeschrittenen Grammatik des Englischen,</li>\n<li>vertiefter Erwerb einer fortgeschrittenen Kommunikationsfähigkeit im fachsprachlichen Bereich zur Realisation von Diskussionen, Präsentationen und der Erstellung von Texten der wichtigsten fachlich relevanten Textsorten,</li>\n<li>weitere Vervollkommnung des Lese- und Hörverstehens durch entsprechende Übungen.</li>\n</ul>\n<h6>Lehrmethoden/Medien</h6>\n<ul>\n<li>Nutzung der gesamten Bandbreite medialer Möglichkeiten: Fernsehen und Video, Radio, Presse, computerbasierte Interaktivität,</li>\n<li>Partnerarbeit, Gruppenarbeit und Rollenspiele,</li>\n<li>Präsentationen und (Kurz-)Vorträge der Studierenden,</li>\n<li>Präsentationen des Dozenten bzw. der Dozentin,</li>\n<li>Plenums- und Gruppendiskussionen,</li>\n<li>Schaffung einer möglichst authentischen fremdsprachlichen Kommunikation im Unterricht.</li>\n</ul>\n<h6>Literatur</h6>\n<ul>\n<li>Vom Dozenten bzw. der Dozentin zusammengestellte Materialien</li>\n</ul>\n<h6>Pré-requis</h6>\n<p>Anglais 6. </p>",
-"AUDIT_ET_PERFORMANCES":"",
+"AUDIT_PERFORMANCES_LOGIST":"<h6>Objectifs</h6>\n<p>Maîtriser les systèmes d'information utiles au contrôle logistique et concevoir des indicateurs de performance.</p>\n<h6>Contenu pédagogique</h6>\n<ul>\n<li>Connaître les outils de contrôle de gestion logistique.</li>\n<li>Maîtriser les systèmes d'information utiles au contrôle logistique.</li>\n<li>Concevoir des tableaux de bord et des indicateurs nécessaires au système de contrôle et préparer le diagnostic de la fonction logistique.</li>\n</ul>",
 "AUTOMATIQUE":"<h6>Descriptif</h6>\n<p>L’objectif de cette UE est de former aux bases de l’automatique continue. À l’issue de cette UE, l’étudiant devra connaître l’ensemble des caractéristiques temporelles et fréquentielles des systèmes linéaires continus à temps invariant. Les notions de régulation, performances en BF et stabilité seront appréhendées.</p>\n<h6>Contenu</h6>\n<ul>\n<li>Notion de système :<ul>\n<li>mise en équation des systèmes linéaires ;</li>\n<li>transformée de Laplace ;</li>\n<li>fonction de transfert ;</li>\n<li>schémas blocs ;</li>\n<li>systèmes composés ;</li>\n<li>systèmes bouclés, FTBO, FTBF ;</li>\n<li>prise en compte des perturbations;</li>\n<li>schémas à plusieurs boucles.</li>\n</ul>\n</li>\n<li>Réponses des systèmes :<ul>\n<li>réponses temporelles et fréquentielles des systèmes du 1er ordre, du 2ème ordre et d’ordre supérieur ;</li>\n<li>règle des pôles dominants ;</li>\n<li>tracé des diagrammes de Bode et de Nyquist.</li>\n</ul>\n</li>\n<li>Performances des systèmes :\n    - Stabilité : condition générale de stabilité, critères de Routh, de la marge de phase et du revers ;<ul>\n<li>degré de stabilité ;</li>\n<li>précision.</li>\n</ul>\n</li>\n</ul>\n<h6>Acquis d'apprentissage</h6>\n<ul>\n<li>Analyser et modéliser le comportement dynamique d'un système linéaire continu.</li>\n<li>Analyser la stabilité d'un système continu représenté par une fonction de transfert.</li>\n<li>Comprendre le principe et les intérêts d'une structure de commande en boucle fermée.</li>\n</ul>\n<h6>Compétences visées</h6>\n<ul>\n<li>Maîtriser les techniques permettant l’automatisation et la commande des procédés industriels.</li>\n<li>Maîtriser les outils fondamentaux de l'automatique des systèmes continus linéaires.</li>\n<li>Acquérir les bases de la modélisation, de l'analyse et de la commande des systèmes continus en vue de leur asservissement et de leur régulation.</li>\n<li>S'initier à l'utilisation du logiciel Matlab pour l'automatique.</li>\n</ul>",
 "AUTOMATISMES_INDUSTRIELS":"<h6>Acquis d'apprentissage</h6>\n<ul>\n<li>Étude de la technologie des systèmes automatisés.</li>\n<li>Étude de la commande des systèmes, et programmation des automates.</li>\n</ul>",
 "BASES_DE_DONNEES_2":"<h6>Lernziele</h6>\n<p>Die Studierenden können abschätzen, wann es sinnvoll ist, Datenbanken einzusetzen. Sie modellieren mit Hilfe der Normalisierung aus Teilen der realen Welt ein logisches Datenmodell. Sie beherrschen die Abfragesprache SQL, um aus dem logischen Datenmodell ein relationales Schema zu konstruieren und um Daten im Schema zu verarbeiten.</p>\n<p>Sie kennen das Transaktionsprinzip und können es sich bei der Datenverarbeitung mit SQL ausnutzen. Sie sind in der Lage, die mengenorientierte Arbeitsweise von SQL mit Hilfe prozeduraler Erweiterungen auch für komplexe Aufgaben nutzbar zu machen. Sie können über statische Konsistenzsicherungen durch Constraints hinaus Trigger konzipieren, die dynamische Konsistenzsicherungen der Datenbank ermöglichen.</p>\n<h6>Inhalt</h6>\n<ol>\n<li>Einführung</li>\n<li>Relatione Algebra, Normalisierung</li>\n<li>SQL</li>\n<li>Transaktionsprinzip, Lesekonsistenz und Sperrkonzepte</li>\n<li>PL/SQL</li>\n</ol>\n<h6>Lehrmethoden/Medien</h6>\n<ul>\n<li>Folien, Skript, Beamer, Tafel</li>\n<li>SOL Notierhilfen, SOL Gruppenpuzzle, SOL Begriffssortierung, SOL Kann-Listen</li>\n<li>Beispieldatenbank Oracle, vorlesungsbegleitend theoretische und praktische Übungen</li>\n</ul>\n<h6>Literatur</h6>\n<ul>\n<li>A. Kemper, A. Eickler: Datenbanksysteme, De Gruyter 2015</li>\n<li>A. Kemper, M. Wimmer: Übungsbuch Datenbanksysteme, Oldenbourg 2011</li>\n<li>P. Rob, C. Coronel, K. Crockett: Database Systems, Thomson Learning, 2008</li>\n<li>H. Faeskorn-Woyke, B. Bertelsmeier: Datenbanksysteme in Theorie und Praxis mit SQL2003, Oracle und MySQL, Pearson 2007</li>\n<li>T. Kudrass: Taschenbuch Datenbanken, Hanser 2015</li>\n</ul>",

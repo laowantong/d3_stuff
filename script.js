@@ -20,10 +20,11 @@ d3.json("data.json", function(error, data) {
       [-0.4, -0.3, -0.2, -0.1, 0, 0.1, 1.0],
     ],
     MAX_DEPTH = TICK_ARRAY_FOR_WIDE_WIDTH[0].length - 1,
+    FILTERS = ["language", "sharing", "program_type"],
     CUMUL_POLICIES = {
-      "modules": d => d.children ? 0 : (((language_filter & d.language_mask) != 0) & ((sharing_filter & d.sharing_mask) != 0) ? 1 : 0),
-      "volumes": d => ((language_filter & d.language_mask) != 0) & ((sharing_filter & d.sharing_mask) != 0) ? d.hours : 0,
-      "ECTS": d => ((language_filter & d.language_mask) != 0) & ((sharing_filter & d.sharing_mask) != 0) ? d.ECTS : 0,
+      "modules": d => d.children ? 0 : (FILTERS.every(key => (filters[key] & d[`${key}_mask`]) != 0) ? 1 : 0),
+      "volumes": d => FILTERS.every(key => (filters[key] & d[`${key}_mask`]) != 0) ? d.hours : 0,
+      "ECTS": d => FILTERS.every(key => (filters[key] & d[`${key}_mask`]) != 0) ? d.ECTS : 0,
     },
     RICH_PROGRAM_NAMES = [
       "<span class=big>Management</span><br>franco-allemand et international",
@@ -34,14 +35,8 @@ d3.json("data.json", function(error, data) {
       "<span class=big>Génie</span><br><span class=big>mécanique</span>",
       "<span class=big>Génie civil</span><br>et management en Europe",
     ],
-    // PROGRAM_COLOR_SCALE = d3.scaleOrdinal([3,5,1,10,7,2,4].map(i => d3.schemeSet3[i])),
-    // PROGRAM_COLOR_SCALE = d3.scaleOrdinal(["#be7900", "#F6A800", "#ffd94a", "#cdd8aa", "#63d8ff", "#02A7E3", "#0078b1"]),
-    // PROGRAM_COLOR_SCALE = d3.scaleOrdinal(["#F6A800", "#f9c555", "#fdd88e", "#cfd8c2", "#8ed8f2", "#56c4ec", "#02A7E3"]),
-    // PROGRAM_COLOR_SCALE = d3.scaleOrdinal(['#f6a800','#f9ba00','#fccb00','#ffdd00', "#d4c972", "#9cb7ac", "#02a7e3"]),
     PROGRAM_COLOR_SCALE = d3.scaleOrdinal(['#f6a800','#fbc200','#ffdd00','#e0cf60','#bcc18f','#8bb3b9','#02a7e3']),
     MIDDLE_COLOR_SCALE = [0,1,2,3,4,5,6].map(i => d3.scaleLinear().range(["white", PROGRAM_COLOR_SCALE(i)])),
-    // MODULE_COLOR_SCALE = d3.scaleOrdinal(d3.schemePastel1)
-    // MODULE_COLOR_SCALE = d3.scaleOrdinal(['#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9'])
     MODULE_COLOR_SCALE = d3.scaleOrdinal(['#66c2a5','#fc8d62','#8da0cb','#e78ac3','#a6d854','#ffd92f','#e5c494','#b3b3b3'])
   ;
   // Global variables (geometry)
@@ -60,8 +55,7 @@ d3.json("data.json", function(error, data) {
   // Global variables (topology)
   var
     cumul_policy = "modules",
-    language_filter = Math.pow(2, document.querySelectorAll('input[name="language_filter"]').length) - 1,
-    sharing_filter = Math.pow(2, document.querySelectorAll('input[name="sharing_filter"]').length) - 1,
+    filters = FILTERS.reduce((acc, key) => Object.assign(acc, {[key]: Math.pow(2, document.querySelectorAll(`input[name="${key}_filter"]`).length) - 1}), {}),
     root = d3.partition()(d3.hierarchy(data["tree"])).sum(CUMUL_POLICIES[cumul_policy]),
     cell = root,
     previous_cell,
@@ -149,30 +143,19 @@ d3.json("data.json", function(error, data) {
       update_cumul()
     })
   ;
-  // Update the language filter
-  d3.selectAll('input[name="language_filter"]')
-    .on("change", function () {
-      if (document.querySelectorAll('input[name="language_filter"]:checked').length) {
-        language_filter ^= this.value;
-        update_cumul()
-      } else {
-        this.checked = true
-      }
-    })
-  ;
-  // Update the sharing filter
-  // TODO: factorize this with the previous
-  d3.selectAll('input[name="sharing_filter"]')
-    .on("change", function () {
-      if (document.querySelectorAll('input[name="sharing_filter"]:checked').length) {
-        sharing_filter ^= this.value;
-        update_cumul()
-      } else {
-        this.checked = true
-      }
-    })
-  ;
-
+  // Bind all radio button filters to the function to be triggered
+  for (let key in filters) {
+    d3.selectAll(`input[name="${key}_filter"]`)
+      .on("change", function () {
+        if (document.querySelectorAll(`input[name="${key}_filter"]:checked`).length) {
+          filters[key] ^= this.value;
+          update_cumul()
+        } else {
+          this.checked = true
+        }
+      })
+    ;
+  };
   update_dimensions();
   window.addEventListener("resize", update_dimensions);
   d3.select("#loader").remove();
