@@ -20,7 +20,7 @@ d3.json("data.json", function(error, data) {
       [-0.4, -0.3, -0.2, -0.1, 0, 0.1, 1.0],
     ],
     MAX_DEPTH = TICK_ARRAY_FOR_WIDE_WIDTH[0].length - 1,
-    FILTERS = ["language", "sharing", "program_type"],
+    FILTERS = ["language", "site", "sharing", "program_type"],
     CUMUL_POLICIES = {
       "modules": d => d.children ? 0 : (FILTERS.every(key => (filters[key] & d[`${key}_mask`]) != 0) ? 1 : 0),
       "volumes": d => FILTERS.every(key => (filters[key] & d[`${key}_mask`]) != 0) ? d.hours : 0,

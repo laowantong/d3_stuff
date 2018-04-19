@@ -37,6 +37,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.017,
 "program":0
 },
@@ -52,6 +53,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.033,
 "program":0
 }
@@ -77,6 +79,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.067,
 "program":0
 }
@@ -102,6 +105,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.083,
 "program":0
 },
@@ -117,6 +121,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.1,
 "program":0
 }
@@ -142,6 +147,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.111,
 "program":0
 },
@@ -157,6 +163,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.122,
 "program":0
 },
@@ -172,6 +179,7 @@
 "language_mask":4,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.133,
 "program":0
 }
@@ -197,6 +205,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.15,
 "program":0
 },
@@ -212,6 +221,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.167,
 "program":0
 }
@@ -247,6 +257,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.183,
 "program":0
 },
@@ -262,6 +273,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.2,
 "program":0
 }
@@ -287,6 +299,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.233,
 "program":0
 }
@@ -312,6 +325,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.244,
 "program":0
 },
@@ -327,6 +341,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.256,
 "program":0
 },
@@ -342,6 +357,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.267,
 "program":0
 }
@@ -367,6 +383,7 @@
 "language_mask":4,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.278,
 "program":0
 },
@@ -382,6 +399,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.289,
 "program":0
 },
@@ -397,6 +415,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.3,
 "program":0
 }
@@ -422,6 +441,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.317,
 "program":0
 },
@@ -437,6 +457,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.333,
 "program":0
 }
@@ -482,6 +503,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.347,
 "program":0
 },
@@ -497,6 +519,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.361,
 "program":0
 }
@@ -522,6 +545,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.37,
 "program":0
 },
@@ -537,6 +561,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.38,
 "program":0
 },
@@ -552,6 +577,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.389,
 "program":0
 }
@@ -577,6 +603,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.403,
 "program":0
 },
@@ -592,6 +619,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.417,
 "program":0
 }
@@ -617,6 +645,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.431,
 "program":0
 },
@@ -632,6 +661,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.444,
 "program":0
 }
@@ -657,6 +687,7 @@
 "language_mask":5,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.472,
 "program":0
 }
@@ -682,6 +713,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.5,
 "program":0
 }
@@ -717,6 +749,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.514,
 "program":0
 },
@@ -732,6 +765,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.528,
 "program":0
 }
@@ -757,6 +791,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.542,
 "program":0
 },
@@ -772,6 +807,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.556,
 "program":0
 }
@@ -797,6 +833,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.569,
 "program":0
 },
@@ -812,6 +849,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.583,
 "program":0
 }
@@ -837,6 +875,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.597,
 "program":0
 },
@@ -852,6 +891,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.611,
 "program":0
 }
@@ -877,6 +917,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.625,
 "program":0
 },
@@ -892,6 +933,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.639,
 "program":0
 }
@@ -917,6 +959,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.653,
 "program":0
 },
@@ -932,6 +975,7 @@
 "language_mask":4,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.667,
 "program":0
 }
@@ -977,6 +1021,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.681,
 "program":0
 },
@@ -992,6 +1037,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.694,
 "program":0
 }
@@ -1017,6 +1063,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.722,
 "program":0
 }
@@ -1042,6 +1089,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.731,
 "program":0
 },
@@ -1057,6 +1105,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.741,
 "program":0
 },
@@ -1072,6 +1121,7 @@
 "language_mask":2,
 "sharing_mask":6,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.75,
 "program":0
 }
@@ -1097,6 +1147,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.764,
 "program":0
 },
@@ -1112,6 +1163,7 @@
 "language_mask":2,
 "sharing_mask":6,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.778,
 "program":0
 }
@@ -1137,6 +1189,7 @@
 "language_mask":2,
 "sharing_mask":6,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.787,
 "program":0
 },
@@ -1152,6 +1205,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.796,
 "program":0
 },
@@ -1167,6 +1221,7 @@
 "language_mask":2,
 "sharing_mask":6,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.806,
 "program":0
 }
@@ -1192,6 +1247,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.815,
 "program":0
 },
@@ -1207,6 +1263,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.824,
 "program":0
 },
@@ -1222,6 +1279,7 @@
 "language_mask":2,
 "sharing_mask":4,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.833,
 "program":0
 }
@@ -1257,6 +1315,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.875,
 "program":0
 },
@@ -1272,6 +1331,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.917,
 "program":0
 }
@@ -1297,6 +1357,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.958,
 "program":0
 },
@@ -1312,6 +1373,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":1.0,
 "program":0
 }
@@ -1366,6 +1428,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.017,
 "program":1
 },
@@ -1381,6 +1444,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.033,
 "program":1
 }
@@ -1406,6 +1470,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.067,
 "program":1
 }
@@ -1431,6 +1496,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.083,
 "program":1
 },
@@ -1446,6 +1512,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.1,
 "program":1
 }
@@ -1471,6 +1538,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.111,
 "program":1
 },
@@ -1486,6 +1554,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.122,
 "program":1
 },
@@ -1501,6 +1570,7 @@
 "language_mask":4,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.133,
 "program":1
 }
@@ -1526,6 +1596,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.15,
 "program":1
 },
@@ -1541,6 +1612,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.167,
 "program":1
 }
@@ -1576,6 +1648,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.183,
 "program":1
 },
@@ -1591,6 +1664,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.2,
 "program":1
 }
@@ -1616,6 +1690,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.233,
 "program":1
 }
@@ -1641,6 +1716,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.244,
 "program":1
 },
@@ -1656,6 +1732,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.256,
 "program":1
 },
@@ -1671,6 +1748,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.267,
 "program":1
 }
@@ -1696,6 +1774,7 @@
 "language_mask":4,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.278,
 "program":1
 },
@@ -1711,6 +1790,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.289,
 "program":1
 },
@@ -1726,6 +1806,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.3,
 "program":1
 }
@@ -1751,6 +1832,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.317,
 "program":1
 },
@@ -1766,6 +1848,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.333,
 "program":1
 }
@@ -1811,6 +1894,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.35,
 "program":1
 },
@@ -1826,6 +1910,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.367,
 "program":1
 }
@@ -1851,6 +1936,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.383,
 "program":1
 },
@@ -1866,6 +1952,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.4,
 "program":1
 }
@@ -1891,6 +1978,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.411,
 "program":1
 },
@@ -1906,6 +1994,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.422,
 "program":1
 },
@@ -1921,6 +2010,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.433,
 "program":1
 }
@@ -1946,6 +2036,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.45,
 "program":1
 },
@@ -1961,6 +2052,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.467,
 "program":1
 }
@@ -1986,6 +2078,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.478,
 "program":1
 },
@@ -2001,6 +2094,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.489,
 "program":1
 },
@@ -2016,6 +2110,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.5,
 "program":1
 }
@@ -2051,6 +2146,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.517,
 "program":1
 },
@@ -2066,6 +2162,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.533,
 "program":1
 }
@@ -2091,6 +2188,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.55,
 "program":1
 },
@@ -2106,6 +2204,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.567,
 "program":1
 }
@@ -2131,6 +2230,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.578,
 "program":1
 },
@@ -2146,6 +2246,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.589,
 "program":1
 },
@@ -2161,6 +2262,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.6,
 "program":1
 }
@@ -2186,6 +2288,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.633,
 "program":1
 }
@@ -2211,6 +2314,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.667,
 "program":1
 }
@@ -2256,6 +2360,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.681,
 "program":1
 },
@@ -2271,6 +2376,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.694,
 "program":1
 }
@@ -2296,6 +2402,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.722,
 "program":1
 }
@@ -2321,6 +2428,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.736,
 "program":1
 },
@@ -2336,6 +2444,7 @@
 "language_mask":2,
 "sharing_mask":6,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.75,
 "program":1
 }
@@ -2361,6 +2470,7 @@
 "language_mask":2,
 "sharing_mask":6,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.759,
 "program":1
 },
@@ -2376,6 +2486,7 @@
 "language_mask":4,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.769,
 "program":1
 },
@@ -2391,6 +2502,7 @@
 "language_mask":2,
 "sharing_mask":6,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.778,
 "program":1
 }
@@ -2416,6 +2528,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.787,
 "program":1
 },
@@ -2431,6 +2544,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.796,
 "program":1
 },
@@ -2446,6 +2560,7 @@
 "language_mask":4,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.806,
 "program":1
 }
@@ -2471,6 +2586,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.819,
 "program":1
 },
@@ -2486,6 +2602,7 @@
 "language_mask":2,
 "sharing_mask":6,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.833,
 "program":1
 }
@@ -2521,6 +2638,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.875,
 "program":1
 },
@@ -2536,6 +2654,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.917,
 "program":1
 }
@@ -2561,6 +2680,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.958,
 "program":1
 },
@@ -2576,6 +2696,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":1.0,
 "program":1
 }
@@ -2630,6 +2751,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.017,
 "program":2
 },
@@ -2645,6 +2767,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.033,
 "program":2
 }
@@ -2670,6 +2793,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.067,
 "program":2
 }
@@ -2695,6 +2819,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.083,
 "program":2
 },
@@ -2710,6 +2835,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.1,
 "program":2
 }
@@ -2735,6 +2861,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.111,
 "program":2
 },
@@ -2750,6 +2877,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.122,
 "program":2
 },
@@ -2765,6 +2893,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.133,
 "program":2
 }
@@ -2790,6 +2919,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.15,
 "program":2
 },
@@ -2805,6 +2935,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.167,
 "program":2
 }
@@ -2840,6 +2971,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.183,
 "program":2
 },
@@ -2855,6 +2987,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.2,
 "program":2
 }
@@ -2880,6 +3013,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.233,
 "program":2
 }
@@ -2905,6 +3039,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.244,
 "program":2
 },
@@ -2920,6 +3055,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.256,
 "program":2
 },
@@ -2935,6 +3071,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.267,
 "program":2
 }
@@ -2960,6 +3097,7 @@
 "language_mask":4,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.278,
 "program":2
 },
@@ -2975,6 +3113,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.289,
 "program":2
 },
@@ -2990,6 +3129,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.3,
 "program":2
 }
@@ -3015,6 +3155,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.317,
 "program":2
 },
@@ -3030,6 +3171,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":1,
 "ratio":0.333,
 "program":2
 }
@@ -3075,6 +3217,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.35,
 "program":2
 },
@@ -3090,6 +3233,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.367,
 "program":2
 }
@@ -3115,6 +3259,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.4,
 "program":2
 }
@@ -3140,6 +3285,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.411,
 "program":2
 },
@@ -3155,6 +3301,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.422,
 "program":2
 },
@@ -3170,6 +3317,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.433,
 "program":2
 }
@@ -3195,6 +3343,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.467,
 "program":2
 }
@@ -3220,6 +3369,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.5,
 "program":2
 }
@@ -3255,6 +3405,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.521,
 "program":2
 },
@@ -3270,6 +3421,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.542,
 "program":2
 }
@@ -3295,6 +3447,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.583,
 "program":2
 }
@@ -3320,6 +3473,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.597,
 "program":2
 },
@@ -3335,6 +3489,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.611,
 "program":2
 },
@@ -3350,6 +3505,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.625,
 "program":2
 }
@@ -3375,6 +3531,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.646,
 "program":2
 },
@@ -3390,6 +3547,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.667,
 "program":2
 }
@@ -3435,6 +3593,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.683,
 "program":2
 },
@@ -3450,6 +3609,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.7,
 "program":2
 }
@@ -3475,6 +3635,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.733,
 "program":2
 }
@@ -3500,6 +3661,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.767,
 "program":2
 }
@@ -3525,6 +3687,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.8,
 "program":2
 }
@@ -3550,6 +3713,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.817,
 "program":2
 },
@@ -3565,6 +3729,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.833,
 "program":2
 }
@@ -3600,6 +3765,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.875,
 "program":2
 },
@@ -3615,6 +3781,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.917,
 "program":2
 }
@@ -3640,6 +3807,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":0.958,
 "program":2
 },
@@ -3655,6 +3823,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":1,
+"site_mask":2,
 "ratio":1.0,
 "program":2
 }
@@ -3709,6 +3878,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.017,
 "program":3
 },
@@ -3724,6 +3894,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.033,
 "program":3
 }
@@ -3749,6 +3920,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.067,
 "program":3
 }
@@ -3774,6 +3946,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.083,
 "program":3
 },
@@ -3789,6 +3962,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.1,
 "program":3
 }
@@ -3814,6 +3988,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.117,
 "program":3
 },
@@ -3829,6 +4004,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.133,
 "program":3
 }
@@ -3854,6 +4030,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.144,
 "program":3
 },
@@ -3869,6 +4046,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.156,
 "program":3
 },
@@ -3884,6 +4062,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.167,
 "program":3
 }
@@ -3919,6 +4098,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.181,
 "program":3
 },
@@ -3934,6 +4114,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.194,
 "program":3
 }
@@ -3959,6 +4140,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.222,
 "program":3
 }
@@ -3984,6 +4166,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.236,
 "program":3
 },
@@ -3999,6 +4182,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.25,
 "program":3
 }
@@ -4024,6 +4208,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.264,
 "program":3
 },
@@ -4039,6 +4224,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.278,
 "program":3
 }
@@ -4064,6 +4250,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.287,
 "program":3
 },
@@ -4079,6 +4266,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.296,
 "program":3
 },
@@ -4094,6 +4282,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.306,
 "program":3
 }
@@ -4119,6 +4308,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.319,
 "program":3
 },
@@ -4134,6 +4324,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.333,
 "program":3
 }
@@ -4179,6 +4370,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.352,
 "program":3
 },
@@ -4194,6 +4386,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.37,
 "program":3
 },
@@ -4209,6 +4402,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.389,
 "program":3
 }
@@ -4234,6 +4428,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.407,
 "program":3
 },
@@ -4249,6 +4444,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.426,
 "program":3
 },
@@ -4264,6 +4460,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.444,
 "program":3
 }
@@ -4289,6 +4486,7 @@
 "language_mask":3,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.5,
 "program":3
 }
@@ -4324,6 +4522,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.519,
 "program":3
 },
@@ -4339,6 +4538,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.537,
 "program":3
 },
@@ -4354,6 +4554,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.556,
 "program":3
 }
@@ -4379,6 +4580,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.574,
 "program":3
 },
@@ -4394,6 +4596,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.593,
 "program":3
 },
@@ -4409,6 +4612,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.611,
 "program":3
 }
@@ -4434,6 +4638,7 @@
 "language_mask":5,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.667,
 "program":3
 }
@@ -4479,6 +4684,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.683,
 "program":3
 },
@@ -4494,6 +4700,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.7,
 "program":3
 }
@@ -4519,6 +4726,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.711,
 "program":3
 },
@@ -4534,6 +4742,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.722,
 "program":3
 },
@@ -4549,6 +4758,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.733,
 "program":3
 }
@@ -4574,6 +4784,7 @@
 "language_mask":2,
 "sharing_mask":4,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.75,
 "program":3
 },
@@ -4589,6 +4800,7 @@
 "language_mask":2,
 "sharing_mask":4,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.767,
 "program":3
 }
@@ -4614,6 +4826,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.783,
 "program":3
 },
@@ -4629,6 +4842,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.8,
 "program":3
 }
@@ -4654,6 +4868,7 @@
 "language_mask":4,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.833,
 "program":3
 }
@@ -4689,6 +4904,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.917,
 "program":3
 }
@@ -4714,6 +4930,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.958,
 "program":3
 },
@@ -4729,6 +4946,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":1.0,
 "program":3
 }
@@ -4783,6 +5001,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.014,
 "program":4
 },
@@ -4798,6 +5017,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.028,
 "program":4
 }
@@ -4823,6 +5043,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.056,
 "program":4
 }
@@ -4848,6 +5069,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.065,
 "program":4
 },
@@ -4863,6 +5085,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.074,
 "program":4
 },
@@ -4878,6 +5101,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.083,
 "program":4
 }
@@ -4903,6 +5127,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.093,
 "program":4
 },
@@ -4918,6 +5143,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.102,
 "program":4
 },
@@ -4933,6 +5159,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.111,
 "program":4
 }
@@ -4958,6 +5185,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.125,
 "program":4
 },
@@ -4973,6 +5201,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.139,
 "program":4
 }
@@ -4998,6 +5227,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.153,
 "program":4
 },
@@ -5013,6 +5243,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.167,
 "program":4
 }
@@ -5048,6 +5279,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.181,
 "program":4
 },
@@ -5063,6 +5295,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.194,
 "program":4
 }
@@ -5088,6 +5321,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.222,
 "program":4
 }
@@ -5113,6 +5347,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.231,
 "program":4
 },
@@ -5128,6 +5363,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.241,
 "program":4
 },
@@ -5143,6 +5379,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.25,
 "program":4
 }
@@ -5168,6 +5405,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.264,
 "program":4
 },
@@ -5183,6 +5421,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.278,
 "program":4
 }
@@ -5208,6 +5447,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.292,
 "program":4
 },
@@ -5223,6 +5463,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.306,
 "program":4
 }
@@ -5248,6 +5489,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.333,
 "program":4
 }
@@ -5293,6 +5535,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.347,
 "program":4
 },
@@ -5308,6 +5551,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.361,
 "program":4
 },
@@ -5323,6 +5567,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.375,
 "program":4
 }
@@ -5348,6 +5593,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.396,
 "program":4
 },
@@ -5363,6 +5609,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.417,
 "program":4
 }
@@ -5388,6 +5635,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.431,
 "program":4
 },
@@ -5403,6 +5651,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.444,
 "program":4
 },
@@ -5418,6 +5667,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.458,
 "program":4
 }
@@ -5443,6 +5693,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.479,
 "program":4
 },
@@ -5458,6 +5709,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.5,
 "program":4
 }
@@ -5493,6 +5745,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.514,
 "program":4
 },
@@ -5508,6 +5761,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.528,
 "program":4
 },
@@ -5523,6 +5777,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.542,
 "program":4
 }
@@ -5548,6 +5803,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.562,
 "program":4
 },
@@ -5563,6 +5819,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.583,
 "program":4
 }
@@ -5588,6 +5845,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.604,
 "program":4
 },
@@ -5603,6 +5861,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.625,
 "program":4
 }
@@ -5628,6 +5887,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.646,
 "program":4
 },
@@ -5643,6 +5903,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.667,
 "program":4
 }
@@ -5688,6 +5949,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.683,
 "program":4
 },
@@ -5703,6 +5965,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.7,
 "program":4
 }
@@ -5728,6 +5991,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.711,
 "program":4
 },
@@ -5743,6 +6007,7 @@
 "language_mask":2,
 "sharing_mask":4,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.722,
 "program":4
 },
@@ -5758,6 +6023,7 @@
 "language_mask":2,
 "sharing_mask":4,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.733,
 "program":4
 }
@@ -5783,6 +6049,7 @@
 "language_mask":2,
 "sharing_mask":4,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.742,
 "program":4
 },
@@ -5798,6 +6065,7 @@
 "language_mask":2,
 "sharing_mask":4,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.75,
 "program":4
 },
@@ -5813,6 +6081,7 @@
 "language_mask":2,
 "sharing_mask":4,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.758,
 "program":4
 },
@@ -5828,6 +6097,7 @@
 "language_mask":2,
 "sharing_mask":4,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.767,
 "program":4
 }
@@ -5853,6 +6123,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.8,
 "program":4
 }
@@ -5878,6 +6149,7 @@
 "language_mask":4,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.833,
 "program":4
 }
@@ -5913,6 +6185,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.861,
 "program":4
 },
@@ -5928,6 +6201,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.889,
 "program":4
 }
@@ -5953,6 +6227,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.917,
 "program":4
 },
@@ -5968,6 +6243,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.944,
 "program":4
 }
@@ -5993,6 +6269,7 @@
 "language_mask":3,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":1.0,
 "program":4
 }
@@ -6047,6 +6324,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.014,
 "program":5
 },
@@ -6062,6 +6340,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.028,
 "program":5
 }
@@ -6087,6 +6366,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.056,
 "program":5
 }
@@ -6112,6 +6392,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.065,
 "program":5
 },
@@ -6127,6 +6408,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.074,
 "program":5
 },
@@ -6142,6 +6424,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.083,
 "program":5
 }
@@ -6167,6 +6450,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.097,
 "program":5
 },
@@ -6182,6 +6466,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.111,
 "program":5
 }
@@ -6207,6 +6492,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.125,
 "program":5
 },
@@ -6222,6 +6508,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.139,
 "program":5
 }
@@ -6247,6 +6534,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.153,
 "program":5
 },
@@ -6262,6 +6550,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.167,
 "program":5
 }
@@ -6297,6 +6586,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.181,
 "program":5
 },
@@ -6312,6 +6602,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.194,
 "program":5
 }
@@ -6337,6 +6628,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.222,
 "program":5
 }
@@ -6362,6 +6654,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.231,
 "program":5
 },
@@ -6377,6 +6670,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.241,
 "program":5
 },
@@ -6392,6 +6686,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.25,
 "program":5
 }
@@ -6417,6 +6712,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.264,
 "program":5
 },
@@ -6432,6 +6728,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.278,
 "program":5
 }
@@ -6457,6 +6754,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.292,
 "program":5
 },
@@ -6472,6 +6770,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.306,
 "program":5
 }
@@ -6497,6 +6796,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.333,
 "program":5
 }
@@ -6542,6 +6842,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.344,
 "program":5
 },
@@ -6557,6 +6858,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.356,
 "program":5
 },
@@ -6572,6 +6874,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.367,
 "program":5
 }
@@ -6597,6 +6900,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.4,
 "program":5
 }
@@ -6622,6 +6926,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.417,
 "program":5
 },
@@ -6637,6 +6942,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.433,
 "program":5
 }
@@ -6662,6 +6968,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.467,
 "program":5
 }
@@ -6687,6 +6994,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.483,
 "program":5
 },
@@ -6702,6 +7010,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.5,
 "program":5
 }
@@ -6737,6 +7046,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.511,
 "program":5
 },
@@ -6752,6 +7062,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.522,
 "program":5
 },
@@ -6767,6 +7078,7 @@
 "language_mask":1,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.533,
 "program":5
 }
@@ -6792,6 +7104,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.55,
 "program":5
 },
@@ -6807,6 +7120,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.567,
 "program":5
 }
@@ -6832,6 +7146,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.6,
 "program":5
 }
@@ -6857,6 +7172,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.617,
 "program":5
 },
@@ -6872,6 +7188,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.633,
 "program":5
 }
@@ -6897,6 +7214,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.667,
 "program":5
 }
@@ -6942,6 +7260,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.683,
 "program":5
 },
@@ -6957,6 +7276,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.7,
 "program":5
 }
@@ -6982,6 +7302,7 @@
 "language_mask":4,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.733,
 "program":5
 }
@@ -7007,6 +7328,7 @@
 "language_mask":2,
 "sharing_mask":4,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.742,
 "program":5
 },
@@ -7022,6 +7344,7 @@
 "language_mask":2,
 "sharing_mask":4,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.75,
 "program":5
 },
@@ -7037,6 +7360,7 @@
 "language_mask":2,
 "sharing_mask":4,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.758,
 "program":5
 },
@@ -7052,6 +7376,7 @@
 "language_mask":2,
 "sharing_mask":4,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.767,
 "program":5
 }
@@ -7077,6 +7402,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.775,
 "program":5
 },
@@ -7092,6 +7418,7 @@
 "language_mask":2,
 "sharing_mask":4,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.783,
 "program":5
 },
@@ -7107,6 +7434,7 @@
 "language_mask":2,
 "sharing_mask":4,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.792,
 "program":5
 },
@@ -7122,6 +7450,7 @@
 "language_mask":2,
 "sharing_mask":4,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.8,
 "program":5
 }
@@ -7147,6 +7476,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.833,
 "program":5
 }
@@ -7182,6 +7512,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.917,
 "program":5
 }
@@ -7207,6 +7538,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.958,
 "program":5
 },
@@ -7222,6 +7554,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":1.0,
 "program":5
 }
@@ -7276,6 +7609,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.014,
 "program":6
 },
@@ -7291,6 +7625,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.028,
 "program":6
 }
@@ -7316,6 +7651,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.056,
 "program":6
 }
@@ -7341,6 +7677,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.065,
 "program":6
 },
@@ -7356,6 +7693,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.074,
 "program":6
 },
@@ -7371,6 +7709,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.083,
 "program":6
 }
@@ -7396,6 +7735,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.097,
 "program":6
 },
@@ -7411,6 +7751,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.111,
 "program":6
 }
@@ -7436,6 +7777,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.139,
 "program":6
 }
@@ -7461,6 +7803,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.148,
 "program":6
 },
@@ -7476,6 +7819,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.157,
 "program":6
 },
@@ -7491,6 +7835,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.167,
 "program":6
 }
@@ -7526,6 +7871,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.181,
 "program":6
 },
@@ -7541,6 +7887,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.194,
 "program":6
 }
@@ -7566,6 +7913,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.222,
 "program":6
 }
@@ -7591,6 +7939,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.231,
 "program":6
 },
@@ -7606,6 +7955,7 @@
 "language_mask":3,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.241,
 "program":6
 },
@@ -7621,6 +7971,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.25,
 "program":6
 }
@@ -7646,6 +7997,7 @@
 "language_mask":2,
 "sharing_mask":2,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.278,
 "program":6
 }
@@ -7671,6 +8023,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.287,
 "program":6
 },
@@ -7686,6 +8039,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.296,
 "program":6
 },
@@ -7701,6 +8055,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.306,
 "program":6
 }
@@ -7726,6 +8081,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.319,
 "program":6
 },
@@ -7741,6 +8097,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":1,
 "ratio":0.333,
 "program":6
 }
@@ -7786,6 +8143,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.347,
 "program":6
 },
@@ -7801,6 +8159,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.361,
 "program":6
 },
@@ -7816,6 +8175,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.375,
 "program":6
 },
@@ -7831,6 +8191,7 @@
 "language_mask":4,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.389,
 "program":6
 }
@@ -7856,6 +8217,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.403,
 "program":6
 },
@@ -7871,6 +8233,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.417,
 "program":6
 },
@@ -7886,6 +8249,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.431,
 "program":6
 },
@@ -7901,6 +8265,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.444,
 "program":6
 }
@@ -7926,6 +8291,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.458,
 "program":6
 },
@@ -7941,6 +8307,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.472,
 "program":6
 },
@@ -7956,6 +8323,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.486,
 "program":6
 },
@@ -7971,6 +8339,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.5,
 "program":6
 }
@@ -8006,6 +8375,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.514,
 "program":6
 },
@@ -8021,6 +8391,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.528,
 "program":6
 },
@@ -8036,6 +8407,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.542,
 "program":6
 },
@@ -8051,6 +8423,7 @@
 "language_mask":2,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.556,
 "program":6
 }
@@ -8076,6 +8449,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.567,
 "program":6
 },
@@ -8091,6 +8465,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.578,
 "program":6
 },
@@ -8106,6 +8481,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.589,
 "program":6
 },
@@ -8121,6 +8497,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.6,
 "program":6
 },
@@ -8136,6 +8513,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.611,
 "program":6
 }
@@ -8161,6 +8539,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.63,
 "program":6
 },
@@ -8176,6 +8555,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.648,
 "program":6
 },
@@ -8191,6 +8571,7 @@
 "language_mask":4,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":4,
 "ratio":0.667,
 "program":6
 }
@@ -8236,6 +8617,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.722,
 "program":6
 },
@@ -8251,6 +8633,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.778,
 "program":6
 }
@@ -8286,6 +8669,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.79,
 "program":6
 },
@@ -8301,6 +8685,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.802,
 "program":6
 },
@@ -8316,6 +8701,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.815,
 "program":6
 }
@@ -8341,6 +8727,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.833,
 "program":6
 },
@@ -8356,6 +8743,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.852,
 "program":6
 }
@@ -8381,6 +8769,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.861,
 "program":6
 },
@@ -8396,6 +8785,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.87,
 "program":6
 },
@@ -8411,6 +8801,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.88,
 "program":6
 },
@@ -8426,6 +8817,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.889,
 "program":6
 }
@@ -8461,6 +8853,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.901,
 "program":6
 },
@@ -8476,6 +8869,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.914,
 "program":6
 },
@@ -8491,6 +8885,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.926,
 "program":6
 }
@@ -8516,6 +8911,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.933,
 "program":6
 },
@@ -8531,6 +8927,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.941,
 "program":6
 },
@@ -8546,6 +8943,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.948,
 "program":6
 },
@@ -8561,6 +8959,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.956,
 "program":6
 },
@@ -8576,6 +8975,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":0.963,
 "program":6
 }
@@ -8601,6 +9001,7 @@
 "language_mask":1,
 "sharing_mask":1,
 "program_type_mask":2,
+"site_mask":2,
 "ratio":1.0,
 "program":6
 }
