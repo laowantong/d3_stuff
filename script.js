@@ -2,7 +2,7 @@ d3.json("data.json", function(error, data) {
   if (error) throw error;
   // Global constants
   const
-    BASE_URL = "https://github.com/isfates/maquettes/",
+    BASE_URL = "https://isfates.github.io/maquettes/",
     TICK_ARRAY_FOR_WIDE_WIDTH = [
       [-0.2, 0.1, 0.4, 0.5, 0.6, 0.7, 1.0],
       [-0.2, 0.1, 0.2, 0.3, 0.4, 0.5, 1.0],
